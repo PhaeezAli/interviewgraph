@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InterviewGraph question bank",
+  "description": "A list of question records. Field reference: docs/data-model.md",
+  "type": "array",
+  "items": { "$ref": "#/$defs/question" },
+  "$defs": {
+    "questionId": {
+      "type": "string",
+      "pattern": "^q[0-9]{4,}$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "question", "domain", "archetype", "provenance", "status"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/questionId",
+          "description": "Stable and never reused. Do not change the id of an existing question."
+        },
+        "question": {
+          "type": "string",
+          "minLength": 3,
+          "description": "The question as it was asked or recalled."
+        },
+        "duplicate_of": {
+          "$ref": "#/$defs/questionId",
+          "description": "Set when this record repeats another one. Points at the canonical question."
+        },
+        "domain": {
+          "enum": [
+            "behavioral",
+            "python",
+            "statistics",
+            "machine-learning",
+            "deep-learning",
+            "computer-vision",
+            "mlops",
+            "cloud-devops",
+            "rag",
+            "llm",
+            "agents",
+            "system-design",
+            "databases",
+            "time-series",
+            "backend",
+            "unassigned"
+          ],
+          "description": "Coarse topic area. 'unassigned' means the question still needs a label."
+        },
+        "archetype": {
+          "enum": [
+            "concept",
+            "comparison",
+            "applied",
+            "design",
+            "coding",
+            "why-choice",
+            "walkthrough",
+            "behavioral",
+            "other"
+          ],
+          "description": "The shape of the question: how the interviewer is probing."
+        },
+        "project_ids": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/slug" },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Projects (data/entities/projects.yaml) this question relates to."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/slug" },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Free-form context labels, for example 'banking' or 'fde'."
+        },
+        "provenance": {
+          "enum": ["unlabeled", "asked", "prep", "followup", "generated", "community"],
+          "description": "Where the question came from. 'unlabeled' means nobody has checked yet."
+        },
+        "status": {
+          "enum": ["draft", "reviewed"],
+          "description": "'draft' means the labels above have not been checked by a person."
+        }
+      }
+    }
+  }
+}

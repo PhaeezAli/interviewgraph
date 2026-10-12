@@ -1,0 +1,6003 @@
+# yaml-language-server: $schema=../../schema/question.schema.json
+# Canonical question bank. Edit by hand, then run: python -m interviewgraph validate
+# Field reference: docs/data-model.md
+
+- id: q0001
+  question: "Tell me about yourself."
+  domain: behavioral
+  archetype: walkthrough
+  provenance: unlabeled
+  status: draft
+
+- id: q0002
+  question: "Walk me through your resume."
+  domain: behavioral
+  archetype: walkthrough
+  provenance: unlabeled
+  status: draft
+
+- id: q0003
+  question: "Walk me through your current role."
+  domain: behavioral
+  archetype: walkthrough
+  provenance: unlabeled
+  status: draft
+
+- id: q0004
+  question: "What are you currently working on?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0005
+  question: "What has been your biggest contribution in your current role?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0006
+  question: "What is the largest AI/ML system you have built?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0007
+  question: "What is the largest scale you have handled?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0008
+  question: "How did you scale your AI infrastructure from a single GPU/server?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0009
+  question: "What was the biggest technical challenge you faced?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0010
+  question: "Tell me about the most difficult ML problem you solved."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0011
+  question: "Tell me about your proudest project."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0012
+  question: "Which project are you most proud of and why?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0013
+  question: "Which project had the biggest business impact?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0014
+  question: "Describe a project you owned end-to-end."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0015
+  question: "Tell me about a production ML system you built."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0016
+  question: "Tell me about a model you took from research to production."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0017
+  question: "What did you personally implement?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0018
+  question: "What parts of the system were designed by you?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0019
+  question: "What was the hardest engineering decision you made?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0020
+  question: "Tell me about a technical decision where you had multiple options."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0021
+  question: "What trade-offs did you make?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0022
+  question: "Tell me about a production failure."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0023
+  question: "Tell me about an ML model that did not work as expected."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0024
+  question: "What would you do differently if you built the project again?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0025
+  question: "What did you learn from your biggest failure?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0026
+  question: "Tell me about a time you had incomplete requirements."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0027
+  question: "How do you approach an ambiguous business problem?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0028
+  question: "How do you determine what problem actually needs to be solved?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0029
+  question: "How do you decide whether ML is required?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0030
+  question: "When would you use rules instead of ML?"
+  domain: behavioral
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0031
+  question: "How do you communicate a technical solution to a non-technical stakeholder?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0032
+  question: "Tell me about a disagreement with a stakeholder."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0033
+  question: "Tell me about a disagreement with another engineer."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0034
+  question: "How did you resolve the disagreement?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0035
+  question: "Tell me about a time you had to influence someone without authority."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0036
+  question: "How do you prioritize competing requirements?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0037
+  question: "Tell me about a tight deadline."
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0038
+  question: "How do you balance speed and engineering quality?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0039
+  question: "Why are you looking for a change?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0040
+  question: "Why this company?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0041
+  question: "Why this role?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0042
+  question: "Why should we hire you?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0043
+  question: "What are your strengths?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0044
+  question: "What is your weakness?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0045
+  question: "Where do you see yourself in the next few years?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0046
+  question: "Why move from computer vision toward GenAI/RAG?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0047
+  question: "Why are you interested in customer-facing/FDE work?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0048
+  question: "Why do you want to work on ambiguous problems?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0049
+  question: "What makes you different from other ML engineers?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0050
+  question: "What does end-to-end ownership mean to you?"
+  domain: behavioral
+  archetype: behavioral
+  provenance: unlabeled
+  status: draft
+
+- id: q0051
+  question: "What is the difference between a list, tuple, set, and dictionary?"
+  domain: python
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0052
+  question: "When would you use a tuple instead of a list?"
+  domain: python
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0053
+  question: "How does a Python dictionary work internally?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0054
+  question: "What is hashing?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0055
+  question: "What is the difference between shallow copy and deep copy?"
+  domain: python
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0056
+  question: "What are mutable and immutable objects?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0057
+  question: "What are generators?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0058
+  question: "Why use a generator instead of a list?"
+  domain: python
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0059
+  question: "What are iterators and iterables?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0060
+  question: "What is a decorator?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0061
+  question: "How do decorators work internally?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0062
+  question: "What is a context manager?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0063
+  question: "How does the with statement work?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0064
+  question: "What is the GIL?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0065
+  question: "Does the GIL prevent multiprocessing?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0066
+  question: "Threading vs multiprocessing in Python?"
+  domain: python
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0067
+  question: "When would you use asyncio?"
+  domain: python
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0068
+  question: "Threading vs multiprocessing vs asyncio?"
+  domain: python
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0069
+  question: "How does Python memory management work?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0070
+  question: "What is garbage collection in Python?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0071
+  question: "What is reference counting?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0072
+  question: "What are first-class functions?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0073
+  question: "What is duck typing?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0074
+  question: "What are *args and **kwargs?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0075
+  question: "What is MRO?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0076
+  question: "How does multiple inheritance work?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0077
+  question: "What is a lambda function?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0078
+  question: "How would you optimize slow Python code?"
+  domain: python
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0079
+  question: "How would you process a dataset that does not fit into memory?"
+  domain: python
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0080
+  question: "How would you design a high-throughput Python service?"
+  domain: python
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0081
+  question: "How do you profile Python code?"
+  domain: python
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0082
+  question: "How do you handle exceptions in production?"
+  domain: python
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0083
+  question: "What are common causes of Python memory leaks?"
+  domain: python
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0084
+  question: "How would you optimize a CPU-bound Python application?"
+  domain: python
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0085
+  question: "How would you optimize an I/O-bound Python application?"
+  domain: python
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0086
+  question: "Mean vs median vs mode."
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0087
+  question: "Variance vs standard deviation."
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0088
+  question: "Population variance vs sample variance."
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0089
+  question: "Covariance vs correlation."
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0090
+  question: "Pearson vs Spearman correlation."
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0091
+  question: "What is conditional probability?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0092
+  question: "Explain Bayes' theorem."
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0093
+  question: "What is independence?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0094
+  question: "What is a probability distribution?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0095
+  question: "Explain the normal distribution."
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0096
+  question: "Explain the binomial distribution."
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0097
+  question: "Explain the Poisson distribution."
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0098
+  question: "Explain the exponential distribution."
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0099
+  question: "What is the central limit theorem?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0100
+  question: "What is the law of large numbers?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0101
+  question: "What is a confidence interval?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0102
+  question: "What does a 95% confidence interval mean?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0103
+  question: "What is a p-value?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0104
+  question: "What is a null hypothesis?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0105
+  question: "What is an alternative hypothesis?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0106
+  question: "Type I vs Type II error."
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0107
+  question: "What is statistical power?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0108
+  question: "How do you increase statistical power?"
+  domain: statistics
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0109
+  question: "Statistical significance vs practical significance."
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0110
+  question: "When would you use a t-test?"
+  domain: statistics
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0111
+  question: "When would you use a chi-square test?"
+  domain: statistics
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0112
+  question: "When would you use ANOVA?"
+  domain: statistics
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0113
+  question: "What assumptions does a t-test make?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0114
+  question: "What happens when normality assumptions fail?"
+  domain: statistics
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0115
+  question: "What is bootstrapping?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0116
+  question: "What is maximum likelihood estimation?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0117
+  question: "What is MAP estimation?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0118
+  question: "MLE vs MAP."
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0119
+  question: "What is multicollinearity?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0120
+  question: "How do you detect multicollinearity?"
+  domain: statistics
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0121
+  question: "How do you handle multicollinearity?"
+  domain: statistics
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0122
+  question: "What are outliers?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0123
+  question: "How do outliers affect mean and variance?"
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0124
+  question: "How would you handle outliers?"
+  domain: statistics
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0125
+  question: "Explain bias-variance trade-off."
+  domain: statistics
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0126
+  question: "What is the difference between statistical and ML bias?"
+  domain: statistics
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0127
+  question: "Supervised vs unsupervised learning."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0128
+  question: "Classification vs regression."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0129
+  question: "What assumptions does linear regression make?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0130
+  question: "How does logistic regression work?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0131
+  question: "Why is logistic regression used for classification?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0132
+  question: "Decision tree vs random forest."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0133
+  question: "What is bagging?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0134
+  question: "What is boosting?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0135
+  question: "Random forest vs gradient boosting."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0136
+  question: "How does XGBoost work?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0137
+  question: "Why does boosting reduce bias?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0138
+  question: "What is overfitting?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0139
+  question: "What is underfitting?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0140
+  question: "How do you detect overfitting?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0141
+  question: "How do you prevent overfitting?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0142
+  question: "What is regularization?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0143
+  question: "L1 vs L2 regularization."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0144
+  question: "What is cross-validation?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0145
+  question: "Why should time-series data not use random cross-validation?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0146
+  question: "What is data leakage?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0147
+  question: "Give examples of data leakage."
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0148
+  question: "What is subject-level leakage?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0149
+  question: "How do you prevent subject-level leakage in computer vision?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0150
+  question: "Train vs validation vs test set."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0151
+  question: "How do you choose the train/validation/test split?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0152
+  question: "What is precision?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0153
+  question: "What is recall?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0154
+  question: "What is F1 score?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0155
+  question: "Precision vs recall: when do you prioritize each?"
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0156
+  question: "ROC-AUC vs PR-AUC."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0157
+  question: "Why is PR-AUC useful for imbalanced data?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0158
+  question: "How do you handle class imbalance?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0159
+  question: "Class weights vs oversampling vs undersampling."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0160
+  question: "How do you choose a classification threshold?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0161
+  question: "What is model calibration?"
+  domain: machine-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0162
+  question: "How do you evaluate a fraud detection model?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0163
+  question: "What happens when production data distribution changes?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0164
+  question: "Data drift vs concept drift."
+  domain: machine-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0165
+  question: "How do you monitor ML models in production?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0166
+  question: "How do you know whether a model should be retrained?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0167
+  question: "How do you debug a model whose validation performance is high but production performance is poor?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0168
+  question: "How would you build an imbalanced motor-claims fraud model?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0169
+  question: "How would you perform EDA on 2 million claims?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0170
+  question: "How would you select features for a tabular ML model?"
+  domain: machine-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0171
+  question: "What is a neural network?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0172
+  question: "Explain forward propagation."
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0173
+  question: "Explain backpropagation."
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0174
+  question: "How does gradient descent work?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0175
+  question: "SGD vs Adam vs AdamW."
+  domain: deep-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0176
+  question: "What causes vanishing gradients?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0177
+  question: "What causes exploding gradients?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0178
+  question: "ReLU vs sigmoid vs tanh."
+  domain: deep-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0179
+  question: "What is softmax?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0180
+  question: "Batch normalization vs layer normalization."
+  domain: deep-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0181
+  question: "What is dropout?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0182
+  question: "Why does dropout reduce overfitting?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0183
+  question: "What are residual connections?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0184
+  question: "Why do residual connections help deep networks?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0185
+  question: "How do you initialize neural-network weights?"
+  domain: deep-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0186
+  question: "What is a learning-rate schedule?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0187
+  question: "Why use warmup?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0188
+  question: "What is cosine decay?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0189
+  question: "What is gradient clipping?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0190
+  question: "FP32 vs FP16 vs BF16."
+  domain: deep-learning
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0191
+  question: "What is mixed-precision training?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0192
+  question: "What is gradient accumulation?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0193
+  question: "How does batch size affect learning?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0194
+  question: "How should learning rate change with batch size?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0195
+  question: "What is early stopping?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0196
+  question: "How do you debug a neural network that is not learning?"
+  domain: deep-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0197
+  question: "How do you diagnose exploding loss?"
+  domain: deep-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0198
+  question: "How do you diagnose vanishing gradients?"
+  domain: deep-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0199
+  question: "What is weight decay?"
+  domain: deep-learning
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0200
+  question: "How do you reduce GPU memory usage during training?"
+  domain: deep-learning
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0201
+  question: "How does convolution work?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0202
+  question: "What are kernel size, stride, and padding?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0203
+  question: "What is receptive field?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0204
+  question: "What is dilation?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0205
+  question: "What is pooling?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0206
+  question: "What are depthwise separable convolutions?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0207
+  question: "CNN vs Vision Transformer."
+  domain: computer-vision
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0208
+  question: "Semantic vs instance vs panoptic segmentation."
+  domain: computer-vision
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0209
+  question: "What is IoU?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0210
+  question: "What is mAP?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0211
+  question: "How does NMS work?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0212
+  question: "What is YOLO?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0213
+  question: "Explain a YOLO detection pipeline."
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0214
+  question: "What are common object-detection architectures?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0215
+  question: "How does pose estimation work?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0216
+  question: "How would you track an object across video frames?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0217
+  question: "What is optical flow?"
+  domain: computer-vision
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0218
+  question: "How do you handle small objects?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0219
+  question: "What data augmentations would you use for computer vision?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0220
+  question: "How do you improve real-time inference performance?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0221
+  question: "How do you handle occlusion?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0222
+  question: "How do you evaluate a segmentation model?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0223
+  question: "How do you evaluate a pose-estimation model?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0224
+  question: "How do you handle noisy labels?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0225
+  question: "How would you build a real-time computer-vision pipeline?"
+  domain: computer-vision
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0226
+  question: "Explain your image-editing AI pipeline end-to-end."
+  domain: computer-vision
+  archetype: walkthrough
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0227
+  question: "How did you reduce image-processing time from minutes to seconds?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0228
+  question: "How did you reduce manual editing effort?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0229
+  question: "What is image matting?"
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0230
+  question: "Segmentation vs matting."
+  domain: computer-vision
+  archetype: comparison
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0231
+  question: "What is an alpha matte?"
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0232
+  question: "Explain MODNet."
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0233
+  question: "Why did you use MODNet?"
+  domain: computer-vision
+  archetype: why-choice
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0234
+  question: "MODNet vs RVM."
+  domain: computer-vision
+  archetype: comparison
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0235
+  question: "MODNet vs U²-Net."
+  domain: computer-vision
+  archetype: comparison
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0236
+  question: "MODNet vs BiRefNet."
+  domain: computer-vision
+  archetype: comparison
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0237
+  question: "How does BiRefNet differ from traditional segmentation?"
+  domain: computer-vision
+  archetype: comparison
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0238
+  question: "How do you handle fine hair in segmentation/matting?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0239
+  question: "How do you handle semi-transparent or sheer clothing?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0240
+  question: "Why can alpha mattes contain gradients?"
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0241
+  question: "How do you evaluate a matting model?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0242
+  question: "What are SAD, MSE, and gradient-based matting metrics?"
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0243
+  question: "Charbonnier loss vs L1 loss."
+  domain: computer-vision
+  archetype: comparison
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0244
+  question: "Explain semantic, detail, and matte losses."
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0245
+  question: "Why use separate semantic/detail/matte losses?"
+  domain: computer-vision
+  archetype: why-choice
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0246
+  question: "How did you choose loss weights?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0247
+  question: "Why use a MobileNet backbone?"
+  domain: computer-vision
+  archetype: why-choice
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0248
+  question: "How did you prevent subject leakage in the dataset?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0249
+  question: "How did you handle RAW/CR3 images?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0250
+  question: "Explain alpha blending."
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0251
+  question: "Explain the image blending equation."
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0252
+  question: "Why use WebGL for image blending?"
+  domain: computer-vision
+  archetype: why-choice
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0253
+  question: "How do masks work in your editor?"
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0254
+  question: "How would you implement an inpainting brush?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0255
+  question: "How do you handle repeated edits?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0256
+  question: "How do you maintain the original/raw image?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0257
+  question: "How did you evaluate AI_Done vs Artist_Done?"
+  domain: computer-vision
+  archetype: comparison
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0258
+  question: "Explain the identification test."
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0259
+  question: "Explain the yes/no test."
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0260
+  question: "Explain the rating test."
+  domain: computer-vision
+  archetype: concept
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0261
+  question: "How do you measure similarity between AI and artist edits?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0262
+  question: "What would you improve in the color-correction model?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0263
+  question: "How do you build a production image-processing pipeline?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0264
+  question: "How do you optimize a pipeline containing multiple AI models?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [image-editing-pipeline]
+  provenance: unlabeled
+  status: draft
+
+- id: q0265
+  question: "What is DistributedDataParallel?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0266
+  question: "Why use DDP?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0267
+  question: "How does DDP work internally?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0268
+  question: "How are gradients synchronized in DDP?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0269
+  question: "What is all-reduce?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0270
+  question: "What happens during an all-reduce operation?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0271
+  question: "Why does DDP use all-reduce?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0272
+  question: "DDP vs parameter-server architecture."
+  domain: deep-learning
+  archetype: comparison
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0273
+  question: "Why can DDP be faster than a parameter server?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0274
+  question: "What happens during backward propagation in DDP?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0275
+  question: "What are gradient buckets?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0276
+  question: "How are processes mapped to GPUs?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0277
+  question: "What is DistributedSampler?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0278
+  question: "Why call set_epoch()?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0279
+  question: "How does batch size change in distributed training?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0280
+  question: "How should learning rate scale with the number of GPUs?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0281
+  question: "How does gradient accumulation interact with DDP?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0282
+  question: "How do you debug DDP?"
+  domain: deep-learning
+  archetype: applied
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0283
+  question: "What happens if one worker crashes?"
+  domain: deep-learning
+  archetype: applied
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0284
+  question: "NCCL vs Gloo."
+  domain: deep-learning
+  archetype: comparison
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0285
+  question: "How does multi-node DDP communicate?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0286
+  question: "What network requirements does DDP have?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0287
+  question: "How do you improve DDP performance?"
+  domain: deep-learning
+  archetype: applied
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0288
+  question: "What caused your 3–4x training speedup?"
+  domain: deep-learning
+  archetype: concept
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0289
+  question: "How do you prevent duplicated samples across workers?"
+  domain: deep-learning
+  archetype: applied
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0290
+  question: "How do you checkpoint distributed training?"
+  domain: deep-learning
+  archetype: applied
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0291
+  question: "What happens if GPU memory differs across workers?"
+  domain: deep-learning
+  archetype: applied
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0292
+  question: "How do you profile distributed training?"
+  domain: deep-learning
+  archetype: applied
+  tags: [distributed-training]
+  provenance: unlabeled
+  status: draft
+
+- id: q0293
+  question: "How do you deploy an ML model?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0294
+  question: "What is model serving?"
+  domain: mlops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0295
+  question: "Explain TorchServe."
+  domain: mlops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0296
+  question: "What is a .mar file?"
+  domain: mlops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0297
+  question: "What is a TorchServe handler?"
+  domain: mlops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0298
+  question: "How do you create a TorchServe model archive?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0299
+  question: "What is a model-serving DAG?"
+  domain: mlops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0300
+  question: "How do you serve multiple models in one pipeline?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0301
+  question: "How do you reduce inference latency?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0302
+  question: "How do you optimize GPU inference?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0303
+  question: "What is batching?"
+  domain: mlops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0304
+  question: "Dynamic batching vs static batching."
+  domain: mlops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0305
+  question: "Why use warmup?"
+  duplicate_of: q0187
+  domain: mlops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0306
+  question: "How do you manage GPU memory?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0307
+  question: "CPU inference vs GPU inference."
+  domain: mlops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0308
+  question: "How do you version models?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0309
+  question: "How do you roll back a bad model?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0310
+  question: "Blue-green vs canary deployment."
+  domain: mlops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0311
+  question: "How do you monitor a production ML model?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0312
+  question: "What metrics do you monitor?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0313
+  question: "What happens when a model server crashes?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0314
+  question: "How do you handle GPU OOM?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0315
+  question: "How do you scale ML inference?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0316
+  question: "How would you serve 20,000+ images per day?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0317
+  question: "Synchronous vs asynchronous inference."
+  domain: mlops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0318
+  question: "Why use a queue for inference?"
+  domain: mlops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0319
+  question: "Redis vs Kafka for ML workloads."
+  domain: mlops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0320
+  question: "How do you make inference jobs idempotent?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0321
+  question: "How do you handle retries?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0322
+  question: "How do you prevent duplicate processing?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0323
+  question: "How do you handle partial failures in a multi-model pipeline?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0324
+  question: "How do you design a reliable GPU inference service?"
+  domain: mlops
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0325
+  question: "How do you monitor latency, throughput, errors, and GPU utilization?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0326
+  question: "How do you perform model warm starts?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0327
+  question: "How do you manage model artifacts?"
+  domain: mlops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0328
+  question: "Container vs virtual machine."
+  domain: cloud-devops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0329
+  question: "What is a Docker image?"
+  domain: cloud-devops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0330
+  question: "What are Docker layers?"
+  domain: cloud-devops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0331
+  question: "How do you reduce Docker image size?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0332
+  question: "Docker Compose vs Kubernetes."
+  domain: cloud-devops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0333
+  question: "What is a Kubernetes pod?"
+  domain: cloud-devops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0334
+  question: "What is a Deployment?"
+  domain: cloud-devops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0335
+  question: "What is a Service?"
+  domain: cloud-devops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0336
+  question: "What is Ingress?"
+  domain: cloud-devops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0337
+  question: "How does Kubernetes scaling work?"
+  domain: cloud-devops
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0338
+  question: "Horizontal vs vertical scaling."
+  domain: cloud-devops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0339
+  question: "How do you deploy GPU workloads to Kubernetes?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0340
+  question: "How do you manage GPU nodes?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0341
+  question: "Azure Container Apps vs AKS."
+  domain: cloud-devops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0342
+  question: "When would you use managed containers vs Kubernetes?"
+  domain: cloud-devops
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0343
+  question: "How do you deploy an ML service to the cloud?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0344
+  question: "How do you manage secrets?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0345
+  question: "How do you monitor cloud workloads?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0346
+  question: "How do you control GPU/cloud cost?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0347
+  question: "How do you design high availability?"
+  domain: cloud-devops
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0348
+  question: "How do you design multi-region infrastructure?"
+  domain: cloud-devops
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0349
+  question: "How do you perform CI/CD for ML systems?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0350
+  question: "How do you safely deploy a new model?"
+  domain: cloud-devops
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0351
+  question: "What is RAG?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0352
+  question: "Why use RAG instead of fine-tuning?"
+  domain: rag
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0353
+  question: "When would you fine-tune instead of using RAG?"
+  domain: rag
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0354
+  question: "Explain an end-to-end RAG pipeline."
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0355
+  question: "What is document chunking?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0356
+  question: "Why is chunking important?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0357
+  question: "What chunking strategies do you know?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0358
+  question: "Fixed-size vs semantic chunking."
+  domain: rag
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0359
+  question: "What is header-aware chunking?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0360
+  question: "How do you choose chunk size?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0361
+  question: "How do you choose chunk overlap?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0362
+  question: "What metadata should be stored with chunks?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0363
+  question: "What are embeddings?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0364
+  question: "How do embedding models work conceptually?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0365
+  question: "What is cosine similarity?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0366
+  question: "How do you choose an embedding model?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0367
+  question: "What is embedding dimensionality?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0368
+  question: "Why use a vector database?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0369
+  question: "Vector database vs relational database."
+  domain: rag
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0370
+  question: "FAISS vs Pinecone vs pgvector."
+  domain: rag
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0371
+  question: "How does pgvector work with PostgreSQL?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0372
+  question: "What is KNN?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0373
+  question: "What is ANN?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0374
+  question: "KNN vs ANN."
+  domain: rag
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0375
+  question: "What is HNSW?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0376
+  question: "How does HNSW work?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0377
+  question: "What is IVF?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0378
+  question: "HNSW vs IVF."
+  domain: rag
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0379
+  question: "What is hybrid retrieval?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0380
+  question: "Why combine BM25 and vector search?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0381
+  question: "How do you combine BM25 and embedding scores?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0382
+  question: "What is reranking?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0383
+  question: "How does reranking improve precision?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0384
+  question: "Cross-encoder vs bi-encoder."
+  domain: rag
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0385
+  question: "What is MMR?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0386
+  question: "Why use MMR?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0387
+  question: "What is query rewriting?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0388
+  question: "When should you rewrite a query?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0389
+  question: "How do you handle ambiguous queries?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0390
+  question: "How do you evaluate retrieval?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0391
+  question: "What is recall@K?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0392
+  question: "What is precision@K?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0393
+  question: "What is MRR?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0394
+  question: "What is NDCG?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0395
+  question: "How do you evaluate the generation part of RAG?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0396
+  question: "What is groundedness?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0397
+  question: "How do you detect hallucination?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0398
+  question: "What happens when retrieved documents conflict?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0399
+  question: "What happens when the answer is not in the corpus?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0400
+  question: "How do you handle outdated documents?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0401
+  question: "How do you provide citations?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0402
+  question: "How do you handle very long documents?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0403
+  question: "How do you reduce RAG latency?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0404
+  question: "How do you cache embeddings?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0405
+  question: "What can be cached in a RAG system?"
+  domain: rag
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0406
+  question: "How do you handle retrieval failures?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0407
+  question: "How do you handle an empty retrieval result?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0408
+  question: "How do you scale RAG to millions of documents?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0409
+  question: "How do you handle document permissions in RAG?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0410
+  question: "How do you prevent one tenant from retrieving another tenant's documents?"
+  domain: rag
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0411
+  question: "How would you improve trust in RAG for banking systems?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0412
+  question: "How do you reduce hallucination in banking RAG?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0413
+  question: "How do you handle confidential banking data?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0414
+  question: "How do you enforce document-level permissions?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0415
+  question: "How do you make a banking RAG system auditable?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0416
+  question: "How do you explain why a particular answer was generated?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0417
+  question: "How do you handle regulatory documents?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0418
+  question: "How do you handle multiple versions of a policy?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0419
+  question: "How do you ensure the latest policy is used?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0420
+  question: "How would you evaluate RAG before production?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0421
+  question: "What production metrics would you monitor?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0422
+  question: "How would you automatically detect hallucinations?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0423
+  question: "How do you defend against prompt injection?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0424
+  question: "How do you protect PII?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0425
+  question: "When should a human be involved?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0426
+  question: "How do you maintain an audit trail?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0427
+  question: "How do you enforce tenant isolation?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0428
+  question: "How do you handle conflicting authoritative sources?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0429
+  question: "How would you build a bank's internal document assistant?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0430
+  question: "How would you secure retrieval and tool access?"
+  domain: rag
+  archetype: applied
+  tags: [banking, enterprise]
+  provenance: unlabeled
+  status: draft
+
+- id: q0431
+  question: "What is a Transformer?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0432
+  question: "Explain self-attention."
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0433
+  question: "What are Query, Key, and Value?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0434
+  question: "Why divide attention scores by sqrt(d)?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0435
+  question: "What is multi-head attention?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0436
+  question: "Self-attention vs cross-attention."
+  domain: llm
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0437
+  question: "Encoder vs decoder architecture."
+  domain: llm
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0438
+  question: "What is causal attention?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0439
+  question: "What is positional encoding?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0440
+  question: "What is RoPE?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0441
+  question: "Why do transformers need positional information?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0442
+  question: "What is tokenization?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0443
+  question: "What is BPE?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0444
+  question: "What is context length?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0445
+  question: "What is KV cache?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0446
+  question: "Why does KV caching improve inference?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0447
+  question: "Temperature vs top-k vs top-p."
+  domain: llm
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0448
+  question: "What causes LLM hallucinations?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0449
+  question: "Prompting vs fine-tuning."
+  domain: llm
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0450
+  question: "What is instruction tuning?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0451
+  question: "What is LoRA?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0452
+  question: "What is PEFT?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0453
+  question: "Why use LoRA?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0454
+  question: "What is quantization?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0455
+  question: "Why quantize an LLM?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0456
+  question: "What is RLHF?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0457
+  question: "How do you evaluate an LLM?"
+  domain: llm
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0458
+  question: "What is LLM-as-a-judge?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0459
+  question: "What are the limitations of LLM-as-a-judge?"
+  domain: llm
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0460
+  question: "How do you evaluate factuality?"
+  domain: llm
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0461
+  question: "How do you evaluate an enterprise LLM application?"
+  domain: llm
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0462
+  question: "How do you reduce LLM inference cost?"
+  domain: llm
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0463
+  question: "How do you reduce LLM latency?"
+  domain: llm
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0464
+  question: "What is an AI agent?"
+  domain: agents
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0465
+  question: "RAG vs agent."
+  domain: agents
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0466
+  question: "Agent vs deterministic workflow."
+  domain: agents
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0467
+  question: "When should you use an agent?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0468
+  question: "When should you not use an agent?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0469
+  question: "What is tool calling?"
+  domain: agents
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0470
+  question: "How does function calling work?"
+  domain: agents
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0471
+  question: "How do agents decide which tool to call?"
+  domain: agents
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0472
+  question: "How do you prevent an agent from entering an infinite loop?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0473
+  question: "How do you handle failed tool calls?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0474
+  question: "How do you make agents reliable?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0475
+  question: "How do you control agent permissions?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0476
+  question: "What is MCP?"
+  domain: agents
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0477
+  question: "MCP vs function calling."
+  domain: agents
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0478
+  question: "How would you build an enterprise agent?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0479
+  question: "How do you evaluate an agent?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0480
+  question: "How do you secure an agent?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0481
+  question: "How do you defend against prompt injection in agents?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0482
+  question: "How do you prevent malicious tool use?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0483
+  question: "How do you handle hallucinated tool results?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0484
+  question: "When is a workflow better than an agent?"
+  domain: agents
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0485
+  question: "Design ChatGPT."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0486
+  question: "Design an AI assistant."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0487
+  question: "Design a document Q&A system."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0488
+  question: "Design a production RAG platform."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0489
+  question: "Design an AI customer-support system."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0490
+  question: "Design an AI CRM."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0491
+  question: "Design an AI image-editing platform."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0492
+  question: "Design a multi-model AI service."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0493
+  question: "Design an image-search system."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0494
+  question: "Design an LLM evaluation platform."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0495
+  question: "Design an agent platform."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0496
+  question: "Design a multimodal AI system."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0497
+  question: "Design a real-time computer-vision system."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0498
+  question: "Design an ML inference platform."
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0499
+  question: "How would you design a system serving millions of requests?"
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0500
+  question: "How do you design for low latency?"
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0501
+  question: "How do you design for high availability?"
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0502
+  question: "How do you handle fault tolerance?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0503
+  question: "When should a system be synchronous vs asynchronous?"
+  domain: system-design
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0504
+  question: "Where would you use Redis?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0505
+  question: "Where would you use Kafka or a message queue?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0506
+  question: "How would you design retry handling?"
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0507
+  question: "How would you prevent duplicate jobs?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0508
+  question: "How would you implement rate limiting?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0509
+  question: "How would you implement authentication?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0510
+  question: "How would you implement authorization?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0511
+  question: "How would you design multi-tenancy?"
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0512
+  question: "How would you implement observability?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0513
+  question: "How would you control infrastructure cost?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0514
+  question: "How would you handle a sudden traffic spike?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0515
+  question: "How would you design graceful degradation?"
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0516
+  question: "How would you design disaster recovery?"
+  domain: system-design
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0517
+  question: "How would you handle model versioning in the architecture?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0518
+  question: "How do you separate data plane and control plane?"
+  domain: system-design
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0519
+  question: "Explain INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN."
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0520
+  question: "WHERE vs HAVING."
+  domain: databases
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0521
+  question: "GROUP BY vs ORDER BY."
+  domain: databases
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0522
+  question: "What is a CTE?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0523
+  question: "What are window functions?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0524
+  question: "ROW_NUMBER vs RANK vs DENSE_RANK."
+  domain: databases
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0525
+  question: "Write a query for the top 5 regions by average claim amount in the last 6 months."
+  domain: databases
+  archetype: coding
+  provenance: unlabeled
+  status: draft
+
+- id: q0526
+  question: "Find the top customers by revenue."
+  domain: databases
+  archetype: coding
+  provenance: unlabeled
+  status: draft
+
+- id: q0527
+  question: "Find duplicate records."
+  domain: databases
+  archetype: coding
+  provenance: unlabeled
+  status: draft
+
+- id: q0528
+  question: "Find the second-highest salary."
+  domain: databases
+  archetype: coding
+  provenance: unlabeled
+  status: draft
+
+- id: q0529
+  question: "Find the Nth-highest value."
+  domain: databases
+  archetype: coding
+  provenance: unlabeled
+  status: draft
+
+- id: q0530
+  question: "How would you calculate a rolling average?"
+  domain: databases
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0531
+  question: "What is an index?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0532
+  question: "Primary key vs index."
+  domain: databases
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0533
+  question: "Clustered vs non-clustered index."
+  domain: databases
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0534
+  question: "How do indexes improve query performance?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0535
+  question: "When can an index hurt performance?"
+  domain: databases
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0536
+  question: "What is normalization?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0537
+  question: "Explain 1NF, 2NF, and 3NF."
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0538
+  question: "When would you denormalize?"
+  domain: databases
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0539
+  question: "SQL vs NoSQL."
+  domain: databases
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0540
+  question: "PostgreSQL vs MongoDB."
+  domain: databases
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0541
+  question: "What are transactions?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0542
+  question: "Explain ACID."
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0543
+  question: "What are transaction isolation levels?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0544
+  question: "What is a deadlock?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0545
+  question: "How do you debug a slow SQL query?"
+  domain: databases
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0546
+  question: "What is an execution/query plan?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0547
+  question: "What is connection pooling?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0548
+  question: "How would you store ML metadata?"
+  domain: databases
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0549
+  question: "How would you store embeddings?"
+  domain: databases
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0550
+  question: "Why use pgvector?"
+  domain: databases
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0551
+  question: "Vector database vs PostgreSQL with pgvector."
+  domain: databases
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0552
+  question: "What is a time series?"
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0553
+  question: "Trend vs seasonality vs cycle."
+  domain: time-series
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0554
+  question: "What is stationarity?"
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0555
+  question: "How do you test stationarity?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0556
+  question: "What is ACF?"
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0557
+  question: "What is PACF?"
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0558
+  question: "Explain AR."
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0559
+  question: "Explain MA."
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0560
+  question: "Explain ARIMA."
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0561
+  question: "Explain SARIMA."
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0562
+  question: "Exponential smoothing vs ARIMA."
+  domain: time-series
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0563
+  question: "When would you use Prophet?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0564
+  question: "How do you handle missing values in time series?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0565
+  question: "How do you handle outliers in time series?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0566
+  question: "MAE vs RMSE."
+  domain: time-series
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0567
+  question: "What is MAPE?"
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0568
+  question: "When is MAPE problematic?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0569
+  question: "What is intermittent demand?"
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0570
+  question: "How would you forecast intermittent demand?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0571
+  question: "How would you forecast product demand?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0572
+  question: "How can ML improve supply-chain planning?"
+  domain: time-series
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0573
+  question: "How would you detect demand anomalies?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0574
+  question: "How do you monitor forecast drift?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0575
+  question: "How would you incorporate promotions and holidays?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0576
+  question: "How would you evaluate a forecasting system?"
+  domain: time-series
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0577
+  question: "Explain your cricket biomechanics project."
+  domain: computer-vision
+  archetype: walkthrough
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0578
+  question: "Why did you use YOLO11-Pose?"
+  domain: computer-vision
+  archetype: why-choice
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0579
+  question: "What is pose estimation?"
+  domain: computer-vision
+  archetype: concept
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0580
+  question: "What keypoints did you track?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0581
+  question: "How did you calculate joint angles?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0582
+  question: "How did you calculate bat angle?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0583
+  question: "How did you track the bat?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0584
+  question: "Why did you use model-free bat tracking?"
+  domain: computer-vision
+  archetype: why-choice
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0585
+  question: "How did you identify swing phases?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0586
+  question: "How did you smooth noisy keypoints?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0587
+  question: "How did you handle occlusion?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0588
+  question: "How did you achieve 20–30 FPS?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0589
+  question: "What is MPS and why did you use it?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0590
+  question: "How did you validate the biomechanics measurements?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0591
+  question: "How would you improve the system?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0592
+  question: "How would you handle multiple players?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0593
+  question: "How would you track the cricket ball?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0594
+  question: "How did you use Grounding DINO for auto-labeling?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0595
+  question: "How would you fine-tune YOLO for cricket?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0596
+  question: "How would you evaluate pose quality?"
+  domain: computer-vision
+  archetype: applied
+  project_ids: [cricket-biomechanics]
+  provenance: unlabeled
+  status: draft
+
+- id: q0597
+  question: "REST vs WebSocket vs SSE."
+  domain: backend
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0598
+  question: "When would you use WebSockets?"
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0599
+  question: "When would you use SSE?"
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0600
+  question: "What is an API gateway?"
+  domain: backend
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0601
+  question: "What is a reverse proxy?"
+  domain: backend
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0602
+  question: "Why use Nginx?"
+  domain: backend
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0603
+  question: "What is load balancing?"
+  domain: backend
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0604
+  question: "How does rate limiting work?"
+  domain: backend
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0605
+  question: "Authentication vs authorization."
+  domain: backend
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0606
+  question: "How does JWT authentication work?"
+  domain: backend
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0607
+  question: "Access token vs refresh token."
+  domain: backend
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0608
+  question: "OAuth vs JWT."
+  domain: backend
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0609
+  question: "How do you secure an API?"
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0610
+  question: "How do you handle retries?"
+  duplicate_of: q0321
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0611
+  question: "How do you make APIs idempotent?"
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0612
+  question: "What is CORS?"
+  domain: backend
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0613
+  question: "How do you securely handle file uploads?"
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0614
+  question: "Why use presigned URLs?"
+  domain: backend
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0615
+  question: "S3/object storage vs database storage."
+  domain: backend
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0616
+  question: "How do you handle concurrent uploads?"
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0617
+  question: "How do you debug API timeouts?"
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0618
+  question: "How do you design a reliable asynchronous API?"
+  domain: backend
+  archetype: design
+  provenance: unlabeled
+  status: draft
+
+- id: q0619
+  question: "How do you handle long-running jobs?"
+  domain: backend
+  archetype: applied
+  provenance: unlabeled
+  status: draft
+
+- id: q0620
+  question: "Explain Vissoo end-to-end."
+  domain: backend
+  archetype: walkthrough
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0621
+  question: "Why did you build Vissoo?"
+  domain: backend
+  archetype: why-choice
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0622
+  question: "How is Vissoo similar to Frame.io and Google Drive?"
+  domain: backend
+  archetype: concept
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0623
+  question: "Explain the backend architecture."
+  domain: backend
+  archetype: walkthrough
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0624
+  question: "Why PostgreSQL?"
+  domain: backend
+  archetype: why-choice
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0625
+  question: "Why Prisma?"
+  domain: backend
+  archetype: why-choice
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0626
+  question: "Why DigitalOcean Spaces?"
+  domain: backend
+  archetype: why-choice
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0627
+  question: "How did you implement authentication?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0628
+  question: "Access token vs refresh token in Vissoo."
+  domain: backend
+  archetype: comparison
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0629
+  question: "How did you implement project membership?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0630
+  question: "How did you implement cross-organization access?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0631
+  question: "How did you implement explicit grants?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0632
+  question: "How did you achieve O(1) access checks?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0633
+  question: "How did you handle folder permissions?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0634
+  question: "How did you protect signed URLs?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0635
+  question: "Why re-sign URLs?"
+  domain: backend
+  archetype: why-choice
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0636
+  question: "How did you handle large downloads?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0637
+  question: "How did you handle RAW images?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0638
+  question: "Explain content-addressed storage."
+  domain: backend
+  archetype: concept
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0639
+  question: "Why generate thumbnails and previews?"
+  domain: backend
+  archetype: why-choice
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0640
+  question: "How did you implement ZIP downloads?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0641
+  question: "How did you implement notifications?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0642
+  question: "How did you handle versioning/concurrency?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0643
+  question: "How did you prevent race conditions?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0644
+  question: "How did you test the application?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0645
+  question: "Why Playwright?"
+  domain: backend
+  archetype: why-choice
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0646
+  question: "How did you implement CI/CD?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0647
+  question: "What was the DigitalOcean Spaces socket problem?"
+  domain: backend
+  archetype: concept
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0648
+  question: "How did you fix the Spaces SDK idle-socket issue?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0649
+  question: "How would you scale Vissoo?"
+  domain: backend
+  archetype: applied
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0650
+  question: "What are the major bottlenecks?"
+  domain: backend
+  archetype: concept
+  project_ids: [vissoo]
+  provenance: unlabeled
+  status: draft
+
+- id: q0651
+  question: "Explain SnapStand end-to-end."
+  domain: unassigned
+  archetype: walkthrough
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0652
+  question: "Explain the complete kiosk flow."
+  domain: unassigned
+  archetype: walkthrough
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0653
+  question: "How does the access-code/barcode session work?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0654
+  question: "How does the credit system work?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0655
+  question: "Vendor vs super-admin."
+  domain: unassigned
+  archetype: comparison
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0656
+  question: "Explain the repository components."
+  domain: unassigned
+  archetype: walkthrough
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0657
+  question: "Why SwiftUI?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0658
+  question: "Why MVVM?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0659
+  question: "How does navigation work?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0660
+  question: "How is authentication handled?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0661
+  question: "How are secrets/configuration handled?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0662
+  question: "How do protocol-based services help?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0663
+  question: "How does session expiry work?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0664
+  question: "Explain on-device image processing."
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0665
+  question: "Why move from cloud GPU to on-device processing?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0666
+  question: "What was the old cloud architecture?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0667
+  question: "What is the new architecture?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0668
+  question: "Why MODNet?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0669
+  question: "Why Core ML?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0670
+  question: "How does MODNet run on the iPad?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0671
+  question: "CPU vs GPU vs Neural Engine."
+  domain: unassigned
+  archetype: comparison
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0672
+  question: "Why fixed 1024x768 resolution?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0673
+  question: "Why run segmentation only once?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0674
+  question: "How do you reuse a matte across multiple backgrounds?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0675
+  question: "How do you process multiple backgrounds concurrently?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0676
+  question: "How does TaskGroup work here?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0677
+  question: "How does image caching work?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0678
+  question: "Explain harmonization."
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0679
+  question: "What is Reinhard color transfer?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0680
+  question: "Why use a mean-only RGB shift?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0681
+  question: "How does contact shadow improve compositing?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0682
+  question: "How do you prevent edge halos?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0683
+  question: "Explain multiplyBlendMode."
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0684
+  question: "How do you scale and position backgrounds?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0685
+  question: "How do you calculate the subject bounding box?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0686
+  question: "Explain coordinate-system differences."
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0687
+  question: "Why are Core Image and UI coordinates different?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0688
+  question: "How are uploads detached from the UI?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0689
+  question: "How does the presigned upload work?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0690
+  question: "How do you notify the backend that a job is complete?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0691
+  question: "How does the backend handle authentication?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0692
+  question: "How does the backend handle authorization?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0693
+  question: "How are credits persisted?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0694
+  question: "How do you prevent credit race conditions?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0695
+  question: "Why shouldn't the client be trusted for credit counts?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0696
+  question: "How do you handle partial TaskGroup failures?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0697
+  question: "How does the admin application work?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0698
+  question: "How do you secure JWTs in the admin frontend?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0699
+  question: "Why can localStorage JWTs be risky?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0700
+  question: "How would you scale to thousands of kiosks?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0701
+  question: "What are the major bottlenecks?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0702
+  question: "How do you secure arbitrary file uploads?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0703
+  question: "How are passwords stored?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0704
+  question: "MODNet vs RVM vs U²-Net."
+  domain: unassigned
+  archetype: comparison
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0705
+  question: "How do you reset RVM state?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0706
+  question: "Why use a Metal CIContext?"
+  domain: unassigned
+  archetype: why-choice
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0707
+  question: "How is the application deployed?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0708
+  question: "What would you change if rebuilding SnapStand?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0709
+  question: "What was the hardest part of SnapStand?"
+  domain: unassigned
+  archetype: concept
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0710
+  question: "How did you validate the final system?"
+  domain: unassigned
+  archetype: applied
+  project_ids: [snapstand]
+  provenance: unlabeled
+  status: draft
+
+- id: q0711
+  question: "Explain MethaneGuard end-to-end."
+  domain: rag
+  archetype: walkthrough
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0712
+  question: "Is the data real or simulated?"
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0713
+  question: "Explain the architecture."
+  domain: rag
+  archetype: walkthrough
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0714
+  question: "Why FastAPI?"
+  domain: rag
+  archetype: why-choice
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0715
+  question: "Why PostgreSQL?"
+  domain: rag
+  archetype: why-choice
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0716
+  question: "Why pgvector?"
+  domain: rag
+  archetype: why-choice
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0717
+  question: "Why not Pinecone?"
+  domain: rag
+  archetype: why-choice
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0718
+  question: "Explain the RAG pipeline."
+  domain: rag
+  archetype: walkthrough
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0719
+  question: "What embedding model did you use?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0720
+  question: "Why MiniLM?"
+  domain: rag
+  archetype: why-choice
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0721
+  question: "What is the embedding dimension?"
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0722
+  question: "Explain hybrid retrieval."
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0723
+  question: "How does BM25 contribute?"
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0724
+  question: "How do you combine BM25 and vector scores?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0725
+  question: "Why use MMR?"
+  domain: rag
+  archetype: why-choice
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0726
+  question: "How does query rewriting work?"
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0727
+  question: "How does topic auto-tagging work?"
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0728
+  question: "How did you choose chunk size?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0729
+  question: "How did you evaluate retrieval?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0730
+  question: "How did you evaluate generated answers?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0731
+  question: "How did you handle hallucination?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0732
+  question: "How did you measure groundedness?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0733
+  question: "How did you handle regulatory documents?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0734
+  question: "How did you cache retrieval?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0735
+  question: "How would you scale the corpus by 100x?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0736
+  question: "How would you handle outdated documents?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0737
+  question: "Explain wind-aware leak localization."
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0738
+  question: "How does weighted-centroid localization work?"
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0739
+  question: "How does trilateration work?"
+  domain: rag
+  archetype: concept
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0740
+  question: "Why use MAD?"
+  domain: rag
+  archetype: why-choice
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0741
+  question: "Why combine z-score and absolute thresholds?"
+  domain: rag
+  archetype: why-choice
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0742
+  question: "How do you calculate emissions?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0743
+  question: "How do you classify severity?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0744
+  question: "How would you productionize MethaneGuard?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0745
+  question: "How would you monitor it?"
+  domain: rag
+  archetype: applied
+  project_ids: [methaneguard]
+  provenance: unlabeled
+  status: draft
+
+- id: q0746
+  question: "What do you do when the customer gives an ambiguous problem?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0747
+  question: "How do you discover the real requirement?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0748
+  question: "What questions do you ask stakeholders first?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0749
+  question: "How do you handle incomplete information?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0750
+  question: "How do you identify the actual business problem?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0751
+  question: "How do you decide whether AI is appropriate?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0752
+  question: "How do you decide between AI and deterministic rules?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0753
+  question: "How do you estimate business value?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0754
+  question: "How do you evaluate feasibility?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0755
+  question: "How do you handle disagreement with a customer?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0756
+  question: "What if the customer asks for something technically impossible?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0757
+  question: "What if the customer is unhappy with the prototype?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0758
+  question: "How do you manage expectations?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0759
+  question: "How do you prioritize customer requirements?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0760
+  question: "Tell me about a time you failed."
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0761
+  question: "Tell me about a mistake you made."
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0762
+  question: "Tell me about a time you learned something quickly."
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0763
+  question: "Tell me about a time you worked under pressure."
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0764
+  question: "Tell me about a time you handled a deadline."
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0765
+  question: "Tell me about a time you led without authority."
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0766
+  question: "Tell me about a time you influenced a technical decision."
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0767
+  question: "How do you communicate technical trade-offs?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0768
+  question: "What if you do not know the answer in a customer meeting?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0769
+  question: "How would you approach an unfamiliar industry?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0770
+  question: "What would you do in your first week as an FDE?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0771
+  question: "How do you move from prototype to production?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0772
+  question: "How do you identify AI opportunities for a customer?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0773
+  question: "How do you measure AI ROI?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0774
+  question: "How do you handle a customer asking for an AI solution that does not need AI?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0775
+  question: "How would you approach an aviation-domain problem?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0776
+  question: "How do you balance customer urgency with production safety?"
+  domain: behavioral
+  archetype: behavioral
+  tags: [fde]
+  provenance: unlabeled
+  status: draft
+
+- id: q0777
+  question: "What is an ontology?"
+  domain: unassigned
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0778
+  question: "Ontology vs knowledge graph."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0779
+  question: "What is a knowledge graph?"
+  domain: unassigned
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0780
+  question: "What is MapReduce?"
+  domain: unassigned
+  archetype: concept
+  provenance: unlabeled
+  status: draft
+
+- id: q0781
+  question: "MapReduce vs distributed training."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0782
+  question: "DDP vs parameter server."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0783
+  question: "Batch processing vs stream processing."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0784
+  question: "ETL vs ELT."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0785
+  question: "OLTP vs OLAP."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0786
+  question: "Cache vs database."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0787
+  question: "Redis vs PostgreSQL."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0788
+  question: "SQL vs NoSQL."
+  duplicate_of: q0539
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0789
+  question: "Vector database vs relational database."
+  duplicate_of: q0369
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0790
+  question: "CNN vs Transformer."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0791
+  question: "RAG vs fine-tuning."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0792
+  question: "RAG vs agent."
+  duplicate_of: q0465
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0793
+  question: "Embedding vs feature."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0794
+  question: "Precision vs recall."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0795
+  question: "Bias vs variance."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0796
+  question: "Data drift vs concept drift."
+  duplicate_of: q0164
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0797
+  question: "Batch inference vs online inference."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0798
+  question: "CPU vs GPU."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0799
+  question: "GPU vs TPU."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0800
+  question: "Docker vs VM."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0801
+  question: "Kubernetes vs Docker Compose."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0802
+  question: "REST vs WebSocket."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0803
+  question: "Authentication vs authorization."
+  duplicate_of: q0605
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0804
+  question: "Horizontal vs vertical scaling."
+  duplicate_of: q0338
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0805
+  question: "Synchronous vs asynchronous processing."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0806
+  question: "Strong consistency vs eventual consistency."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0807
+  question: "RAG retrieval vs reranking."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0808
+  question: "Bi-encoder vs cross-encoder."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0809
+  question: "HNSW vs IVF."
+  duplicate_of: q0378
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0810
+  question: "MLE vs MAP."
+  duplicate_of: q0118
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0811
+  question: "L1 vs L2."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0812
+  question: "Bagging vs boosting."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0813
+  question: "Random forest vs XGBoost."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0814
+  question: "Batch norm vs layer norm."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0815
+  question: "FP16 vs BF16."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0816
+  question: "Fine-tuning vs LoRA."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0817
+  question: "Tool calling vs MCP."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft
+
+- id: q0818
+  question: "Agent vs workflow."
+  domain: unassigned
+  archetype: comparison
+  provenance: unlabeled
+  status: draft

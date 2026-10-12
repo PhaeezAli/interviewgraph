@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../schema/project.schema.json
+# Projects that questions can relate to (project_ids in questions.yaml).
+
+- id: image-editing-pipeline
+  name: AI image-editing pipeline
+
+- id: cricket-biomechanics
+  name: Cricket biomechanics
+
+- id: vissoo
+  name: Vissoo
+
+- id: snapstand
+  name: SnapStand
+
+- id: methaneguard
+  name: MethaneGuard
