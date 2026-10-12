@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Raw job descriptions and personal interview notes stay on your machine.
+# Only structured, anonymised records belong under data/ (see docs/data-model.md).
+data/private/
+
+# Byte-identical duplicate of the master list that Finder created; the original is tracked.
+*(1).txt
