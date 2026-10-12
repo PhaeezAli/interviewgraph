@@ -10,6 +10,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 QUESTIONS_PATH = ROOT / "data" / "questions" / "questions.yaml"
 PROJECTS_PATH = ROOT / "data" / "entities" / "projects.yaml"
+INTERVIEWS_PATH = ROOT / "data" / "interviews" / "interviews.yaml"
 SCHEMA_DIR = ROOT / "schema"
 
 QUESTIONS_HEADER = (
@@ -20,6 +21,11 @@ QUESTIONS_HEADER = (
 PROJECTS_HEADER = (
     "# yaml-language-server: $schema=../../schema/project.schema.json\n"
     "# Projects that questions can relate to (project_ids in questions.yaml).\n"
+)
+INTERVIEWS_HEADER = (
+    "# yaml-language-server: $schema=../../schema/interview.schema.json\n"
+    "# Interview records: one application's rounds and the questions actually asked.\n"
+    "# Field reference: docs/data-model.md. Raw postings and personal notes stay in data/private/.\n"
 )
 
 
@@ -83,6 +89,24 @@ def dump_questions(records: list[dict]) -> str:
 
 def dump_projects(projects: list[dict]) -> str:
     return PROJECTS_HEADER + "\n" + _dump(projects)
+
+
+def dump_interviews(interviews: list[dict]) -> str:
+    prepared = []
+    for record in interviews:
+        record = dict(record)
+        if "jd_skills" in record:
+            record["jd_skills"] = _Flow(record["jd_skills"])
+        record["stages"] = [{**stage, "question_ids": _Flow(stage["question_ids"])} for stage in record["stages"]]
+        prepared.append(record)
+    return INTERVIEWS_HEADER + "\n" + (_dump(prepared) if prepared else "[]\n")
+
+
+def load_interviews() -> list[dict]:
+    """The interview records, or an empty list when the file does not exist yet."""
+    if not INTERVIEWS_PATH.exists():
+        return []
+    return load_yaml(INTERVIEWS_PATH) or []
 
 
 def write_text(path: Path, text: str) -> None:

@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InterviewGraph interview records",
+  "description": "A list of interview records: one job application's interviews, the role it was for, and the questions actually asked. Field reference: docs/data-model.md",
+  "type": "array",
+  "items": { "$ref": "#/$defs/interview" },
+  "$defs": {
+    "interviewId": {
+      "type": "string",
+      "pattern": "^i[0-9]{4,}$"
+    },
+    "questionId": {
+      "type": "string",
+      "pattern": "^q[0-9]{4,}$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "stage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "question_ids"],
+      "properties": {
+        "kind": {
+          "enum": [
+            "screening",
+            "technical",
+            "coding",
+            "system-design",
+            "take-home",
+            "hiring-manager",
+            "behavioral",
+            "final",
+            "other"
+          ],
+          "description": "What the round was for."
+        },
+        "format": {
+          "enum": ["phone", "video", "onsite", "written"],
+          "description": "How the round was held."
+        },
+        "duration_minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 600
+        },
+        "question_ids": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/questionId" },
+          "uniqueItems": true,
+          "description": "Questions from questions.yaml that were asked in this round, in the order they were asked when known. May be empty for a round nobody recorded."
+        }
+      }
+    },
+    "interview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "company", "company_named", "role_title", "role_family", "date", "stages", "source", "status"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/interviewId",
+          "description": "Stable and never reused."
+        },
+        "company": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The employer's name, or an anonymised label such as 'fintech-a' when company_named is false."
+        },
+        "company_named": {
+          "type": "boolean",
+          "description": "true only when the real company name may be published. Default to false."
+        },
+        "industry": {
+          "$ref": "#/$defs/slug",
+          "description": "For example 'fintech', 'media', 'government'. Useful when the company is anonymised."
+        },
+        "company_size": {
+          "enum": ["startup", "scaleup", "enterprise"],
+          "description": "Rough size band."
+        },
+        "role_title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The title as the posting wrote it."
+        },
+        "role_family": {
+          "enum": [
+            "ai-engineer",
+            "ml-engineer",
+            "fde",
+            "computer-vision",
+            "data-scientist",
+            "mlops",
+            "backend",
+            "full-stack",
+            "data-engineer",
+            "research",
+            "other"
+          ],
+          "description": "Normalised role so postings with different titles can be compared."
+        },
+        "seniority": {
+          "enum": ["intern", "junior", "mid", "senior", "lead"],
+          "description": "As the posting framed it, not as you judge it."
+        },
+        "location": {
+          "type": "string",
+          "minLength": 1,
+          "description": "City and country, or 'remote'."
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$",
+          "description": "Month of the first round, YYYY-MM. Day-level dates could identify people."
+        },
+        "jd_skills": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/slug" },
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Skills and topics the job description asked for, as slugs: 'pytorch', 'rag', 'kubernetes'. This is the public, reusable summary of the JD."
+        },
+        "jd_summary": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 1000,
+          "description": "Two or three sentences on what the role was really about, in your own words. Never paste the posting."
+        },
+        "jd_ref": {
+          "type": "string",
+          "pattern": "^data/private/",
+          "description": "Path to the raw posting on your machine. data/private/ is git-ignored, so the file itself is never published."
+        },
+        "stages": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/stage" },
+          "minItems": 1,
+          "description": "The rounds, in order."
+        },
+        "outcome": {
+          "enum": ["offer", "rejected", "withdrew", "no-response", "in-progress"],
+          "description": "Optional. How the process ended."
+        },
+        "source": {
+          "enum": ["self", "community"],
+          "description": "'self' means the maintainer's own interview; 'community' means a contributor submitted it."
+        },
+        "status": {
+          "enum": ["draft", "reviewed"],
+          "description": "'draft' until a person has checked the record and its question links."
+        }
+      }
+    }
+  }
+}

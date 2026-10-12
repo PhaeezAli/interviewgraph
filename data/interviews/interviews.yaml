@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=../../schema/interview.schema.json
+# Interview records: one application's rounds and the questions actually asked.
+# Field reference: docs/data-model.md. Raw postings and personal notes stay in data/private/.
+
+[]

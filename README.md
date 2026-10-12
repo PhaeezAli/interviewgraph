@@ -4,7 +4,7 @@ An open, structured interview-question knowledge base. The goal is to map job de
 
 *InterviewGraph is a working title.*
 
-**Status: early.** The question dataset, its schema and its validation exist. The ontology, JD parser and question ranker do not yet. See the [roadmap](#roadmap).
+**Status: early.** The question dataset, the interview-record schema and their validation exist. The ontology, JD parser and question ranker do not yet. See the [roadmap](#roadmap).
 
 ## Principles
 
@@ -31,6 +31,7 @@ Without uv: `python -m venv .venv && .venv/bin/pip install -e ".[dev]"`.
 ```
 data/questions/questions.yaml   the question bank (source of truth)
 data/entities/projects.yaml     projects that questions can relate to
+data/interviews/interviews.yaml interview records: role, anonymised company, rounds, questions asked
 schema/                         JSON Schemas; editors that support them validate as you type
 docs/data-model.md              field reference and conventions
 interviewgraph/                 validation, duplicate detection, text utilities
@@ -44,8 +45,8 @@ Edit `data/questions/questions.yaml`. Use the next unused id (`q0819`, ...), nev
 
 ## Roadmap
 
-1. **Dataset** with stable ids, provenance and duplicate flags. *(this stage)*
-2. **Interview records**: the job description plus the questions actually asked.
+1. **Dataset** with stable ids, provenance and duplicate flags. *(done)*
+2. **Interview records**: the job description plus the questions actually asked. *(schema done; records being added)*
 3. **Baseline retriever and evaluation**: hide one interview, predict its questions from the JD, measure how many appear in the top K.
 4. **Ontology and graph**, judged against that baseline.
 5. **Explainable ranking**, then an API and UI.

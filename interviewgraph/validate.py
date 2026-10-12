@@ -64,17 +64,45 @@ def integrity_errors(records: list[dict], project_ids: set[str]) -> list[str]:
     return errors
 
 
-def validate_data(records, projects) -> list[str]:
+def interview_errors(interviews: list[dict], records: list[dict]) -> list[str]:
+    """Rules linking interview records to the question bank. Assumes both are schema-valid."""
+    errors = []
+    for iid, count in Counter(i["id"] for i in interviews).items():
+        if count > 1:
+            errors.append(f"{iid}: id is used {count} times")
+    by_id = {r["id"]: r for r in records}
+    for record in interviews:
+        iid = record["id"]
+        seen: Counter = Counter()
+        for stage in record["stages"]:
+            for qid in stage["question_ids"]:
+                seen[qid] += 1
+                question = by_id.get(qid)
+                if question is None:
+                    errors.append(f"{iid}: question {qid} does not exist")
+                elif "duplicate_of" in question:
+                    errors.append(f"{iid}: question {qid} is a duplicate of {question['duplicate_of']}; link the canonical question")
+        for qid, n in seen.items():
+            if n > 1:
+                errors.append(f"{iid}: question {qid} is listed in more than one round")
+    return errors
+
+
+def validate_data(records, projects, interviews=None) -> list[str]:
+    interviews = list(interviews or [])
     errors = schema_errors(records, "question.schema.json", "questions")
     errors += schema_errors(projects, "project.schema.json", "projects")
+    errors += schema_errors(interviews, "interview.schema.json", "interviews")
     if errors:
         return errors + ["(integrity checks skipped until the schema errors above are fixed)"]
     errors = [f"projects: id '{pid}' is used more than once" for pid, n in Counter(p["id"] for p in projects).items() if n > 1]
-    return errors + integrity_errors(records, {p["id"] for p in projects})
+    errors += integrity_errors(records, {p["id"] for p in projects})
+    return errors + interview_errors(interviews, records)
 
 
-def summarize(records: list[dict]) -> list[str]:
+def summarize(records: list[dict], interviews: list[dict] | None = None) -> list[str]:
     canonical = [r for r in records if "duplicate_of" not in r]
+    interviews = list(interviews or [])
 
     def counts(key: str) -> str:
         return ", ".join(f"{name} {n}" for name, n in Counter(r[key] for r in records).most_common())
@@ -87,7 +115,17 @@ def summarize(records: list[dict]) -> list[str]:
         f"domain still unassigned: {unassigned}",
         f"archetypes: {counts('archetype')}",
         f"near-duplicate pairs awaiting review: {len(near_pairs(records))} (run: python -m interviewgraph duplicates)",
+        _interview_summary(interviews),
     ]
+
+
+def _interview_summary(interviews: list[dict]) -> str:
+    if not interviews:
+        return "interviews recorded: 0 (add the first one to data/interviews/interviews.yaml)"
+    linked = {qid for i in interviews for stage in i["stages"] for qid in stage["question_ids"]}
+    rounds = sum(len(i["stages"]) for i in interviews)
+    families = ", ".join(f"{name} {n}" for name, n in Counter(i["role_family"] for i in interviews).most_common())
+    return f"interviews recorded: {len(interviews)} ({rounds} rounds, {len(linked)} distinct questions linked); roles: {families}"
 
 
 def validate_repo() -> Report:
@@ -96,5 +134,6 @@ def validate_repo() -> Report:
         return Report(errors=[f"{p.relative_to(dataio.ROOT)} not found" for p in missing])
     records = dataio.load_yaml(dataio.QUESTIONS_PATH)
     projects = dataio.load_yaml(dataio.PROJECTS_PATH)
-    errors = validate_data(records, projects)
-    return Report(errors=errors, summary=[] if errors else summarize(records))
+    interviews = dataio.load_interviews()
+    errors = validate_data(records, projects, interviews)
+    return Report(errors=errors, summary=[] if errors else summarize(records, interviews))
