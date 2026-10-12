@@ -1,0 +1,1923 @@
+INTERVIEW QUESTION BANK + PROJECT DESIGN
+=========================================
+Project: Interview Question Knowledge Graph & JD Question Predictor
+Purpose: Public GitHub repository + future JD-to-interview-question prediction system
+
+============================================================
+PART 1 — MASTER INTERVIEW QUESTION BANK
+============================================================
+
+NOTE
+----
+This is a normalized master list assembled from the interview preparation and project discussions we have accumulated. It intentionally contains both questions encountered in preparation/interviews and closely related follow-up questions. Later, provenance can be attached to every question:
+- ACTUAL_INTERVIEW
+- INTERVIEW_PREP
+- PROJECT_FOLLOWUP
+- GENERATED/FUTURE
+
+The first goal is breadth and preservation. Do not delete questions merely because they look similar until the dataset/provenance layer has been established.
+
+
+============================================================
+A. INTRODUCTION / RESUME / EXPERIENCE
+============================================================
+
+1. Tell me about yourself.
+2. Walk me through your resume.
+3. Walk me through your current role.
+4. What are you currently working on?
+5. What has been your biggest contribution in your current role?
+6. What is the largest AI/ML system you have built?
+7. What is the largest scale you have handled?
+8. How did you scale your AI infrastructure from a single GPU/server?
+9. What was the biggest technical challenge you faced?
+10. Tell me about the most difficult ML problem you solved.
+11. Tell me about your proudest project.
+12. Which project are you most proud of and why?
+13. Which project had the biggest business impact?
+14. Describe a project you owned end-to-end.
+15. Tell me about a production ML system you built.
+16. Tell me about a model you took from research to production.
+17. What did you personally implement?
+18. What parts of the system were designed by you?
+19. What was the hardest engineering decision you made?
+20. Tell me about a technical decision where you had multiple options.
+21. What trade-offs did you make?
+22. Tell me about a production failure.
+23. Tell me about an ML model that did not work as expected.
+24. What would you do differently if you built the project again?
+25. What did you learn from your biggest failure?
+26. Tell me about a time you had incomplete requirements.
+27. How do you approach an ambiguous business problem?
+28. How do you determine what problem actually needs to be solved?
+29. How do you decide whether ML is required?
+30. When would you use rules instead of ML?
+31. How do you communicate a technical solution to a non-technical stakeholder?
+32. Tell me about a disagreement with a stakeholder.
+33. Tell me about a disagreement with another engineer.
+34. How did you resolve the disagreement?
+35. Tell me about a time you had to influence someone without authority.
+36. How do you prioritize competing requirements?
+37. Tell me about a tight deadline.
+38. How do you balance speed and engineering quality?
+39. Why are you looking for a change?
+40. Why this company?
+41. Why this role?
+42. Why should we hire you?
+43. What are your strengths?
+44. What is your weakness?
+45. Where do you see yourself in the next few years?
+46. Why move from computer vision toward GenAI/RAG?
+47. Why are you interested in customer-facing/FDE work?
+48. Why do you want to work on ambiguous problems?
+49. What makes you different from other ML engineers?
+50. What does end-to-end ownership mean to you?
+
+
+============================================================
+B. PYTHON
+============================================================
+
+51. What is the difference between a list, tuple, set, and dictionary?
+52. When would you use a tuple instead of a list?
+53. How does a Python dictionary work internally?
+54. What is hashing?
+55. What is the difference between shallow copy and deep copy?
+56. What are mutable and immutable objects?
+57. What are generators?
+58. Why use a generator instead of a list?
+59. What are iterators and iterables?
+60. What is a decorator?
+61. How do decorators work internally?
+62. What is a context manager?
+63. How does the with statement work?
+64. What is the GIL?
+65. Does the GIL prevent multiprocessing?
+66. Threading vs multiprocessing in Python?
+67. When would you use asyncio?
+68. Threading vs multiprocessing vs asyncio?
+69. How does Python memory management work?
+70. What is garbage collection in Python?
+71. What is reference counting?
+72. What are first-class functions?
+73. What is duck typing?
+74. What are *args and **kwargs?
+75. What is MRO?
+76. How does multiple inheritance work?
+77. What is a lambda function?
+78. How would you optimize slow Python code?
+79. How would you process a dataset that does not fit into memory?
+80. How would you design a high-throughput Python service?
+81. How do you profile Python code?
+82. How do you handle exceptions in production?
+83. What are common causes of Python memory leaks?
+84. How would you optimize a CPU-bound Python application?
+85. How would you optimize an I/O-bound Python application?
+
+
+============================================================
+C. STATISTICS / PROBABILITY
+============================================================
+
+86. Mean vs median vs mode.
+87. Variance vs standard deviation.
+88. Population variance vs sample variance.
+89. Covariance vs correlation.
+90. Pearson vs Spearman correlation.
+91. What is conditional probability?
+92. Explain Bayes' theorem.
+93. What is independence?
+94. What is a probability distribution?
+95. Explain the normal distribution.
+96. Explain the binomial distribution.
+97. Explain the Poisson distribution.
+98. Explain the exponential distribution.
+99. What is the central limit theorem?
+100. What is the law of large numbers?
+101. What is a confidence interval?
+102. What does a 95% confidence interval mean?
+103. What is a p-value?
+104. What is a null hypothesis?
+105. What is an alternative hypothesis?
+106. Type I vs Type II error.
+107. What is statistical power?
+108. How do you increase statistical power?
+109. Statistical significance vs practical significance.
+110. When would you use a t-test?
+111. When would you use a chi-square test?
+112. When would you use ANOVA?
+113. What assumptions does a t-test make?
+114. What happens when normality assumptions fail?
+115. What is bootstrapping?
+116. What is maximum likelihood estimation?
+117. What is MAP estimation?
+118. MLE vs MAP.
+119. What is multicollinearity?
+120. How do you detect multicollinearity?
+121. How do you handle multicollinearity?
+122. What are outliers?
+123. How do outliers affect mean and variance?
+124. How would you handle outliers?
+125. Explain bias-variance trade-off.
+126. What is the difference between statistical and ML bias?
+
+
+============================================================
+D. MACHINE LEARNING
+============================================================
+
+127. Supervised vs unsupervised learning.
+128. Classification vs regression.
+129. What assumptions does linear regression make?
+130. How does logistic regression work?
+131. Why is logistic regression used for classification?
+132. Decision tree vs random forest.
+133. What is bagging?
+134. What is boosting?
+135. Random forest vs gradient boosting.
+136. How does XGBoost work?
+137. Why does boosting reduce bias?
+138. What is overfitting?
+139. What is underfitting?
+140. How do you detect overfitting?
+141. How do you prevent overfitting?
+142. What is regularization?
+143. L1 vs L2 regularization.
+144. What is cross-validation?
+145. Why should time-series data not use random cross-validation?
+146. What is data leakage?
+147. Give examples of data leakage.
+148. What is subject-level leakage?
+149. How do you prevent subject-level leakage in computer vision?
+150. Train vs validation vs test set.
+151. How do you choose the train/validation/test split?
+152. What is precision?
+153. What is recall?
+154. What is F1 score?
+155. Precision vs recall: when do you prioritize each?
+156. ROC-AUC vs PR-AUC.
+157. Why is PR-AUC useful for imbalanced data?
+158. How do you handle class imbalance?
+159. Class weights vs oversampling vs undersampling.
+160. How do you choose a classification threshold?
+161. What is model calibration?
+162. How do you evaluate a fraud detection model?
+163. What happens when production data distribution changes?
+164. Data drift vs concept drift.
+165. How do you monitor ML models in production?
+166. How do you know whether a model should be retrained?
+167. How do you debug a model whose validation performance is high but production performance is poor?
+168. How would you build an imbalanced motor-claims fraud model?
+169. How would you perform EDA on 2 million claims?
+170. How would you select features for a tabular ML model?
+
+
+============================================================
+E. DEEP LEARNING
+============================================================
+
+171. What is a neural network?
+172. Explain forward propagation.
+173. Explain backpropagation.
+174. How does gradient descent work?
+175. SGD vs Adam vs AdamW.
+176. What causes vanishing gradients?
+177. What causes exploding gradients?
+178. ReLU vs sigmoid vs tanh.
+179. What is softmax?
+180. Batch normalization vs layer normalization.
+181. What is dropout?
+182. Why does dropout reduce overfitting?
+183. What are residual connections?
+184. Why do residual connections help deep networks?
+185. How do you initialize neural-network weights?
+186. What is a learning-rate schedule?
+187. Why use warmup?
+188. What is cosine decay?
+189. What is gradient clipping?
+190. FP32 vs FP16 vs BF16.
+191. What is mixed-precision training?
+192. What is gradient accumulation?
+193. How does batch size affect learning?
+194. How should learning rate change with batch size?
+195. What is early stopping?
+196. How do you debug a neural network that is not learning?
+197. How do you diagnose exploding loss?
+198. How do you diagnose vanishing gradients?
+199. What is weight decay?
+200. How do you reduce GPU memory usage during training?
+
+
+============================================================
+F. COMPUTER VISION
+============================================================
+
+201. How does convolution work?
+202. What are kernel size, stride, and padding?
+203. What is receptive field?
+204. What is dilation?
+205. What is pooling?
+206. What are depthwise separable convolutions?
+207. CNN vs Vision Transformer.
+208. Semantic vs instance vs panoptic segmentation.
+209. What is IoU?
+210. What is mAP?
+211. How does NMS work?
+212. What is YOLO?
+213. Explain a YOLO detection pipeline.
+214. What are common object-detection architectures?
+215. How does pose estimation work?
+216. How would you track an object across video frames?
+217. What is optical flow?
+218. How do you handle small objects?
+219. What data augmentations would you use for computer vision?
+220. How do you improve real-time inference performance?
+221. How do you handle occlusion?
+222. How do you evaluate a segmentation model?
+223. How do you evaluate a pose-estimation model?
+224. How do you handle noisy labels?
+225. How would you build a real-time computer-vision pipeline?
+
+
+============================================================
+G. IMAGE EDITING / MATting / RETOUCHING
+============================================================
+
+226. Explain your image-editing AI pipeline end-to-end.
+227. How did you reduce image-processing time from minutes to seconds?
+228. How did you reduce manual editing effort?
+229. What is image matting?
+230. Segmentation vs matting.
+231. What is an alpha matte?
+232. Explain MODNet.
+233. Why did you use MODNet?
+234. MODNet vs RVM.
+235. MODNet vs U²-Net.
+236. MODNet vs BiRefNet.
+237. How does BiRefNet differ from traditional segmentation?
+238. How do you handle fine hair in segmentation/matting?
+239. How do you handle semi-transparent or sheer clothing?
+240. Why can alpha mattes contain gradients?
+241. How do you evaluate a matting model?
+242. What are SAD, MSE, and gradient-based matting metrics?
+243. Charbonnier loss vs L1 loss.
+244. Explain semantic, detail, and matte losses.
+245. Why use separate semantic/detail/matte losses?
+246. How did you choose loss weights?
+247. Why use a MobileNet backbone?
+248. How did you prevent subject leakage in the dataset?
+249. How did you handle RAW/CR3 images?
+250. Explain alpha blending.
+251. Explain the image blending equation.
+252. Why use WebGL for image blending?
+253. How do masks work in your editor?
+254. How would you implement an inpainting brush?
+255. How do you handle repeated edits?
+256. How do you maintain the original/raw image?
+257. How did you evaluate AI_Done vs Artist_Done?
+258. Explain the identification test.
+259. Explain the yes/no test.
+260. Explain the rating test.
+261. How do you measure similarity between AI and artist edits?
+262. What would you improve in the color-correction model?
+263. How do you build a production image-processing pipeline?
+264. How do you optimize a pipeline containing multiple AI models?
+
+
+============================================================
+H. DISTRIBUTED TRAINING / DDP
+============================================================
+
+265. What is DistributedDataParallel?
+266. Why use DDP?
+267. How does DDP work internally?
+268. How are gradients synchronized in DDP?
+269. What is all-reduce?
+270. What happens during an all-reduce operation?
+271. Why does DDP use all-reduce?
+272. DDP vs parameter-server architecture.
+273. Why can DDP be faster than a parameter server?
+274. What happens during backward propagation in DDP?
+275. What are gradient buckets?
+276. How are processes mapped to GPUs?
+277. What is DistributedSampler?
+278. Why call set_epoch()?
+279. How does batch size change in distributed training?
+280. How should learning rate scale with the number of GPUs?
+281. How does gradient accumulation interact with DDP?
+282. How do you debug DDP?
+283. What happens if one worker crashes?
+284. NCCL vs Gloo.
+285. How does multi-node DDP communicate?
+286. What network requirements does DDP have?
+287. How do you improve DDP performance?
+288. What caused your 3–4x training speedup?
+289. How do you prevent duplicated samples across workers?
+290. How do you checkpoint distributed training?
+291. What happens if GPU memory differs across workers?
+292. How do you profile distributed training?
+
+
+============================================================
+I. MLOPS / MODEL SERVING / PRODUCTION
+============================================================
+
+293. How do you deploy an ML model?
+294. What is model serving?
+295. Explain TorchServe.
+296. What is a .mar file?
+297. What is a TorchServe handler?
+298. How do you create a TorchServe model archive?
+299. What is a model-serving DAG?
+300. How do you serve multiple models in one pipeline?
+301. How do you reduce inference latency?
+302. How do you optimize GPU inference?
+303. What is batching?
+304. Dynamic batching vs static batching.
+305. Why use warmup?
+306. How do you manage GPU memory?
+307. CPU inference vs GPU inference.
+308. How do you version models?
+309. How do you roll back a bad model?
+310. Blue-green vs canary deployment.
+311. How do you monitor a production ML model?
+312. What metrics do you monitor?
+313. What happens when a model server crashes?
+314. How do you handle GPU OOM?
+315. How do you scale ML inference?
+316. How would you serve 20,000+ images per day?
+317. Synchronous vs asynchronous inference.
+318. Why use a queue for inference?
+319. Redis vs Kafka for ML workloads.
+320. How do you make inference jobs idempotent?
+321. How do you handle retries?
+322. How do you prevent duplicate processing?
+323. How do you handle partial failures in a multi-model pipeline?
+324. How do you design a reliable GPU inference service?
+325. How do you monitor latency, throughput, errors, and GPU utilization?
+326. How do you perform model warm starts?
+327. How do you manage model artifacts?
+
+
+============================================================
+J. DOCKER / KUBERNETES / CLOUD
+============================================================
+
+328. Container vs virtual machine.
+329. What is a Docker image?
+330. What are Docker layers?
+331. How do you reduce Docker image size?
+332. Docker Compose vs Kubernetes.
+333. What is a Kubernetes pod?
+334. What is a Deployment?
+335. What is a Service?
+336. What is Ingress?
+337. How does Kubernetes scaling work?
+338. Horizontal vs vertical scaling.
+339. How do you deploy GPU workloads to Kubernetes?
+340. How do you manage GPU nodes?
+341. Azure Container Apps vs AKS.
+342. When would you use managed containers vs Kubernetes?
+343. How do you deploy an ML service to the cloud?
+344. How do you manage secrets?
+345. How do you monitor cloud workloads?
+346. How do you control GPU/cloud cost?
+347. How do you design high availability?
+348. How do you design multi-region infrastructure?
+349. How do you perform CI/CD for ML systems?
+350. How do you safely deploy a new model?
+
+
+============================================================
+K. RAG / RETRIEVAL
+============================================================
+
+351. What is RAG?
+352. Why use RAG instead of fine-tuning?
+353. When would you fine-tune instead of using RAG?
+354. Explain an end-to-end RAG pipeline.
+355. What is document chunking?
+356. Why is chunking important?
+357. What chunking strategies do you know?
+358. Fixed-size vs semantic chunking.
+359. What is header-aware chunking?
+360. How do you choose chunk size?
+361. How do you choose chunk overlap?
+362. What metadata should be stored with chunks?
+363. What are embeddings?
+364. How do embedding models work conceptually?
+365. What is cosine similarity?
+366. How do you choose an embedding model?
+367. What is embedding dimensionality?
+368. Why use a vector database?
+369. Vector database vs relational database.
+370. FAISS vs Pinecone vs pgvector.
+371. How does pgvector work with PostgreSQL?
+372. What is KNN?
+373. What is ANN?
+374. KNN vs ANN.
+375. What is HNSW?
+376. How does HNSW work?
+377. What is IVF?
+378. HNSW vs IVF.
+379. What is hybrid retrieval?
+380. Why combine BM25 and vector search?
+381. How do you combine BM25 and embedding scores?
+382. What is reranking?
+383. How does reranking improve precision?
+384. Cross-encoder vs bi-encoder.
+385. What is MMR?
+386. Why use MMR?
+387. What is query rewriting?
+388. When should you rewrite a query?
+389. How do you handle ambiguous queries?
+390. How do you evaluate retrieval?
+391. What is recall@K?
+392. What is precision@K?
+393. What is MRR?
+394. What is NDCG?
+395. How do you evaluate the generation part of RAG?
+396. What is groundedness?
+397. How do you detect hallucination?
+398. What happens when retrieved documents conflict?
+399. What happens when the answer is not in the corpus?
+400. How do you handle outdated documents?
+401. How do you provide citations?
+402. How do you handle very long documents?
+403. How do you reduce RAG latency?
+404. How do you cache embeddings?
+405. What can be cached in a RAG system?
+406. How do you handle retrieval failures?
+407. How do you handle an empty retrieval result?
+408. How do you scale RAG to millions of documents?
+409. How do you handle document permissions in RAG?
+410. How do you prevent one tenant from retrieving another tenant's documents?
+
+
+============================================================
+L. BANKING / ENTERPRISE RAG
+============================================================
+
+411. How would you improve trust in RAG for banking systems?
+412. How do you reduce hallucination in banking RAG?
+413. How do you handle confidential banking data?
+414. How do you enforce document-level permissions?
+415. How do you make a banking RAG system auditable?
+416. How do you explain why a particular answer was generated?
+417. How do you handle regulatory documents?
+418. How do you handle multiple versions of a policy?
+419. How do you ensure the latest policy is used?
+420. How would you evaluate RAG before production?
+421. What production metrics would you monitor?
+422. How would you automatically detect hallucinations?
+423. How do you defend against prompt injection?
+424. How do you protect PII?
+425. When should a human be involved?
+426. How do you maintain an audit trail?
+427. How do you enforce tenant isolation?
+428. How do you handle conflicting authoritative sources?
+429. How would you build a bank's internal document assistant?
+430. How would you secure retrieval and tool access?
+
+
+============================================================
+M. LLM / TRANSFORMERS / GENERATIVE AI
+============================================================
+
+431. What is a Transformer?
+432. Explain self-attention.
+433. What are Query, Key, and Value?
+434. Why divide attention scores by sqrt(d)?
+435. What is multi-head attention?
+436. Self-attention vs cross-attention.
+437. Encoder vs decoder architecture.
+438. What is causal attention?
+439. What is positional encoding?
+440. What is RoPE?
+441. Why do transformers need positional information?
+442. What is tokenization?
+443. What is BPE?
+444. What is context length?
+445. What is KV cache?
+446. Why does KV caching improve inference?
+447. Temperature vs top-k vs top-p.
+448. What causes LLM hallucinations?
+449. Prompting vs fine-tuning.
+450. What is instruction tuning?
+451. What is LoRA?
+452. What is PEFT?
+453. Why use LoRA?
+454. What is quantization?
+455. Why quantize an LLM?
+456. What is RLHF?
+457. How do you evaluate an LLM?
+458. What is LLM-as-a-judge?
+459. What are the limitations of LLM-as-a-judge?
+460. How do you evaluate factuality?
+461. How do you evaluate an enterprise LLM application?
+462. How do you reduce LLM inference cost?
+463. How do you reduce LLM latency?
+
+
+============================================================
+N. AGENTS / TOOL CALLING / MCP
+============================================================
+
+464. What is an AI agent?
+465. RAG vs agent.
+466. Agent vs deterministic workflow.
+467. When should you use an agent?
+468. When should you not use an agent?
+469. What is tool calling?
+470. How does function calling work?
+471. How do agents decide which tool to call?
+472. How do you prevent an agent from entering an infinite loop?
+473. How do you handle failed tool calls?
+474. How do you make agents reliable?
+475. How do you control agent permissions?
+476. What is MCP?
+477. MCP vs function calling.
+478. How would you build an enterprise agent?
+479. How do you evaluate an agent?
+480. How do you secure an agent?
+481. How do you defend against prompt injection in agents?
+482. How do you prevent malicious tool use?
+483. How do you handle hallucinated tool results?
+484. When is a workflow better than an agent?
+
+
+============================================================
+O. SYSTEM DESIGN
+============================================================
+
+485. Design ChatGPT.
+486. Design an AI assistant.
+487. Design a document Q&A system.
+488. Design a production RAG platform.
+489. Design an AI customer-support system.
+490. Design an AI CRM.
+491. Design an AI image-editing platform.
+492. Design a multi-model AI service.
+493. Design an image-search system.
+494. Design an LLM evaluation platform.
+495. Design an agent platform.
+496. Design a multimodal AI system.
+497. Design a real-time computer-vision system.
+498. Design an ML inference platform.
+499. How would you design a system serving millions of requests?
+500. How do you design for low latency?
+501. How do you design for high availability?
+502. How do you handle fault tolerance?
+503. When should a system be synchronous vs asynchronous?
+504. Where would you use Redis?
+505. Where would you use Kafka or a message queue?
+506. How would you design retry handling?
+507. How would you prevent duplicate jobs?
+508. How would you implement rate limiting?
+509. How would you implement authentication?
+510. How would you implement authorization?
+511. How would you design multi-tenancy?
+512. How would you implement observability?
+513. How would you control infrastructure cost?
+514. How would you handle a sudden traffic spike?
+515. How would you design graceful degradation?
+516. How would you design disaster recovery?
+517. How would you handle model versioning in the architecture?
+518. How do you separate data plane and control plane?
+
+
+============================================================
+P. SQL / DATABASES
+============================================================
+
+519. Explain INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.
+520. WHERE vs HAVING.
+521. GROUP BY vs ORDER BY.
+522. What is a CTE?
+523. What are window functions?
+524. ROW_NUMBER vs RANK vs DENSE_RANK.
+525. Write a query for the top 5 regions by average claim amount in the last 6 months.
+526. Find the top customers by revenue.
+527. Find duplicate records.
+528. Find the second-highest salary.
+529. Find the Nth-highest value.
+530. How would you calculate a rolling average?
+531. What is an index?
+532. Primary key vs index.
+533. Clustered vs non-clustered index.
+534. How do indexes improve query performance?
+535. When can an index hurt performance?
+536. What is normalization?
+537. Explain 1NF, 2NF, and 3NF.
+538. When would you denormalize?
+539. SQL vs NoSQL.
+540. PostgreSQL vs MongoDB.
+541. What are transactions?
+542. Explain ACID.
+543. What are transaction isolation levels?
+544. What is a deadlock?
+545. How do you debug a slow SQL query?
+546. What is an execution/query plan?
+547. What is connection pooling?
+548. How would you store ML metadata?
+549. How would you store embeddings?
+550. Why use pgvector?
+551. Vector database vs PostgreSQL with pgvector.
+
+
+============================================================
+Q. TIME SERIES / SUPPLY CHAIN
+============================================================
+
+552. What is a time series?
+553. Trend vs seasonality vs cycle.
+554. What is stationarity?
+555. How do you test stationarity?
+556. What is ACF?
+557. What is PACF?
+558. Explain AR.
+559. Explain MA.
+560. Explain ARIMA.
+561. Explain SARIMA.
+562. Exponential smoothing vs ARIMA.
+563. When would you use Prophet?
+564. How do you handle missing values in time series?
+565. How do you handle outliers in time series?
+566. MAE vs RMSE.
+567. What is MAPE?
+568. When is MAPE problematic?
+569. What is intermittent demand?
+570. How would you forecast intermittent demand?
+571. How would you forecast product demand?
+572. How can ML improve supply-chain planning?
+573. How would you detect demand anomalies?
+574. How do you monitor forecast drift?
+575. How would you incorporate promotions and holidays?
+576. How would you evaluate a forecasting system?
+
+
+============================================================
+R. CRICKET BIOMECHANICS / POSE PROJECT
+============================================================
+
+577. Explain your cricket biomechanics project.
+578. Why did you use YOLO11-Pose?
+579. What is pose estimation?
+580. What keypoints did you track?
+581. How did you calculate joint angles?
+582. How did you calculate bat angle?
+583. How did you track the bat?
+584. Why did you use model-free bat tracking?
+585. How did you identify swing phases?
+586. How did you smooth noisy keypoints?
+587. How did you handle occlusion?
+588. How did you achieve 20–30 FPS?
+589. What is MPS and why did you use it?
+590. How did you validate the biomechanics measurements?
+591. How would you improve the system?
+592. How would you handle multiple players?
+593. How would you track the cricket ball?
+594. How did you use Grounding DINO for auto-labeling?
+595. How would you fine-tune YOLO for cricket?
+596. How would you evaluate pose quality?
+
+
+============================================================
+S. BACKEND / APIs / INFRASTRUCTURE
+============================================================
+
+597. REST vs WebSocket vs SSE.
+598. When would you use WebSockets?
+599. When would you use SSE?
+600. What is an API gateway?
+601. What is a reverse proxy?
+602. Why use Nginx?
+603. What is load balancing?
+604. How does rate limiting work?
+605. Authentication vs authorization.
+606. How does JWT authentication work?
+607. Access token vs refresh token.
+608. OAuth vs JWT.
+609. How do you secure an API?
+610. How do you handle retries?
+611. How do you make APIs idempotent?
+612. What is CORS?
+613. How do you securely handle file uploads?
+614. Why use presigned URLs?
+615. S3/object storage vs database storage.
+616. How do you handle concurrent uploads?
+617. How do you debug API timeouts?
+618. How do you design a reliable asynchronous API?
+619. How do you handle long-running jobs?
+
+
+============================================================
+T. VISSOO PROJECT
+============================================================
+
+620. Explain Vissoo end-to-end.
+621. Why did you build Vissoo?
+622. How is Vissoo similar to Frame.io and Google Drive?
+623. Explain the backend architecture.
+624. Why PostgreSQL?
+625. Why Prisma?
+626. Why DigitalOcean Spaces?
+627. How did you implement authentication?
+628. Access token vs refresh token in Vissoo.
+629. How did you implement project membership?
+630. How did you implement cross-organization access?
+631. How did you implement explicit grants?
+632. How did you achieve O(1) access checks?
+633. How did you handle folder permissions?
+634. How did you protect signed URLs?
+635. Why re-sign URLs?
+636. How did you handle large downloads?
+637. How did you handle RAW images?
+638. Explain content-addressed storage.
+639. Why generate thumbnails and previews?
+640. How did you implement ZIP downloads?
+641. How did you implement notifications?
+642. How did you handle versioning/concurrency?
+643. How did you prevent race conditions?
+644. How did you test the application?
+645. Why Playwright?
+646. How did you implement CI/CD?
+647. What was the DigitalOcean Spaces socket problem?
+648. How did you fix the Spaces SDK idle-socket issue?
+649. How would you scale Vissoo?
+650. What are the major bottlenecks?
+
+
+============================================================
+U. SNAPSTAND PROJECT
+============================================================
+
+651. Explain SnapStand end-to-end.
+652. Explain the complete kiosk flow.
+653. How does the access-code/barcode session work?
+654. How does the credit system work?
+655. Vendor vs super-admin.
+656. Explain the repository components.
+657. Why SwiftUI?
+658. Why MVVM?
+659. How does navigation work?
+660. How is authentication handled?
+661. How are secrets/configuration handled?
+662. How do protocol-based services help?
+663. How does session expiry work?
+664. Explain on-device image processing.
+665. Why move from cloud GPU to on-device processing?
+666. What was the old cloud architecture?
+667. What is the new architecture?
+668. Why MODNet?
+669. Why Core ML?
+670. How does MODNet run on the iPad?
+671. CPU vs GPU vs Neural Engine.
+672. Why fixed 1024x768 resolution?
+673. Why run segmentation only once?
+674. How do you reuse a matte across multiple backgrounds?
+675. How do you process multiple backgrounds concurrently?
+676. How does TaskGroup work here?
+677. How does image caching work?
+678. Explain harmonization.
+679. What is Reinhard color transfer?
+680. Why use a mean-only RGB shift?
+681. How does contact shadow improve compositing?
+682. How do you prevent edge halos?
+683. Explain multiplyBlendMode.
+684. How do you scale and position backgrounds?
+685. How do you calculate the subject bounding box?
+686. Explain coordinate-system differences.
+687. Why are Core Image and UI coordinates different?
+688. How are uploads detached from the UI?
+689. How does the presigned upload work?
+690. How do you notify the backend that a job is complete?
+691. How does the backend handle authentication?
+692. How does the backend handle authorization?
+693. How are credits persisted?
+694. How do you prevent credit race conditions?
+695. Why shouldn't the client be trusted for credit counts?
+696. How do you handle partial TaskGroup failures?
+697. How does the admin application work?
+698. How do you secure JWTs in the admin frontend?
+699. Why can localStorage JWTs be risky?
+700. How would you scale to thousands of kiosks?
+701. What are the major bottlenecks?
+702. How do you secure arbitrary file uploads?
+703. How are passwords stored?
+704. MODNet vs RVM vs U²-Net.
+705. How do you reset RVM state?
+706. Why use a Metal CIContext?
+707. How is the application deployed?
+708. What would you change if rebuilding SnapStand?
+709. What was the hardest part of SnapStand?
+710. How did you validate the final system?
+
+
+============================================================
+V. METHANEGUARD / RAG PROJECT
+============================================================
+
+711. Explain MethaneGuard end-to-end.
+712. Is the data real or simulated?
+713. Explain the architecture.
+714. Why FastAPI?
+715. Why PostgreSQL?
+716. Why pgvector?
+717. Why not Pinecone?
+718. Explain the RAG pipeline.
+719. What embedding model did you use?
+720. Why MiniLM?
+721. What is the embedding dimension?
+722. Explain hybrid retrieval.
+723. How does BM25 contribute?
+724. How do you combine BM25 and vector scores?
+725. Why use MMR?
+726. How does query rewriting work?
+727. How does topic auto-tagging work?
+728. How did you choose chunk size?
+729. How did you evaluate retrieval?
+730. How did you evaluate generated answers?
+731. How did you handle hallucination?
+732. How did you measure groundedness?
+733. How did you handle regulatory documents?
+734. How did you cache retrieval?
+735. How would you scale the corpus by 100x?
+736. How would you handle outdated documents?
+737. Explain wind-aware leak localization.
+738. How does weighted-centroid localization work?
+739. How does trilateration work?
+740. Why use MAD?
+741. Why combine z-score and absolute thresholds?
+742. How do you calculate emissions?
+743. How do you classify severity?
+744. How would you productionize MethaneGuard?
+745. How would you monitor it?
+
+
+============================================================
+W. FDE / CUSTOMER / LEADERSHIP
+============================================================
+
+746. What do you do when the customer gives an ambiguous problem?
+747. How do you discover the real requirement?
+748. What questions do you ask stakeholders first?
+749. How do you handle incomplete information?
+750. How do you identify the actual business problem?
+751. How do you decide whether AI is appropriate?
+752. How do you decide between AI and deterministic rules?
+753. How do you estimate business value?
+754. How do you evaluate feasibility?
+755. How do you handle disagreement with a customer?
+756. What if the customer asks for something technically impossible?
+757. What if the customer is unhappy with the prototype?
+758. How do you manage expectations?
+759. How do you prioritize customer requirements?
+760. Tell me about a time you failed.
+761. Tell me about a mistake you made.
+762. Tell me about a time you learned something quickly.
+763. Tell me about a time you worked under pressure.
+764. Tell me about a time you handled a deadline.
+765. Tell me about a time you led without authority.
+766. Tell me about a time you influenced a technical decision.
+767. How do you communicate technical trade-offs?
+768. What if you do not know the answer in a customer meeting?
+769. How would you approach an unfamiliar industry?
+770. What would you do in your first week as an FDE?
+771. How do you move from prototype to production?
+772. How do you identify AI opportunities for a customer?
+773. How do you measure AI ROI?
+774. How do you handle a customer asking for an AI solution that does not need AI?
+775. How would you approach an aviation-domain problem?
+776. How do you balance customer urgency with production safety?
+
+
+============================================================
+X. RAPID-FIRE / CONCEPT COMPARISONS
+============================================================
+
+777. What is an ontology?
+778. Ontology vs knowledge graph.
+779. What is a knowledge graph?
+780. What is MapReduce?
+781. MapReduce vs distributed training.
+782. DDP vs parameter server.
+783. Batch processing vs stream processing.
+784. ETL vs ELT.
+785. OLTP vs OLAP.
+786. Cache vs database.
+787. Redis vs PostgreSQL.
+788. SQL vs NoSQL.
+789. Vector database vs relational database.
+790. CNN vs Transformer.
+791. RAG vs fine-tuning.
+792. RAG vs agent.
+793. Embedding vs feature.
+794. Precision vs recall.
+795. Bias vs variance.
+796. Data drift vs concept drift.
+797. Batch inference vs online inference.
+798. CPU vs GPU.
+799. GPU vs TPU.
+800. Docker vs VM.
+801. Kubernetes vs Docker Compose.
+802. REST vs WebSocket.
+803. Authentication vs authorization.
+804. Horizontal vs vertical scaling.
+805. Synchronous vs asynchronous processing.
+806. Strong consistency vs eventual consistency.
+807. RAG retrieval vs reranking.
+808. Bi-encoder vs cross-encoder.
+809. HNSW vs IVF.
+810. MLE vs MAP.
+811. L1 vs L2.
+812. Bagging vs boosting.
+813. Random forest vs XGBoost.
+814. Batch norm vs layer norm.
+815. FP16 vs BF16.
+816. Fine-tuning vs LoRA.
+817. Tool calling vs MCP.
+818. Agent vs workflow.
+
+
+============================================================
+PART 2 — PROJECT DESIGN PLAN
+============================================================
+
+PROJECT NAME
+------------
+InterviewGraph
+(or a similar name selected by the repository maintainer)
+
+ONE-LINE DESCRIPTION
+--------------------
+An open, structured interview-question knowledge base that maps job descriptions, roles, skills, concepts, projects, and real interview questions to generate evidence-based interview preparation.
+
+CORE IDEA
+---------
+Build a public dataset first.
+Build the ontology/knowledge graph second.
+Build JD-to-question retrieval third.
+Build prediction/ranking fourth.
+Use newly reported interviews as evaluation data.
+
+
+============================================================
+1. PROJECT GOALS
+============================================================
+
+Primary goals:
+1. Create a high-quality public interview-question dataset.
+2. Preserve real interview questions and their provenance.
+3. Represent relationships between questions, concepts, skills, roles, companies, and projects.
+4. Build a knowledge graph over the interview domain.
+5. Given a JD, extract requirements and retrieve relevant questions.
+6. Rank questions by relevance and evidence.
+7. Generate likely follow-up questions from graph relationships.
+8. Continuously evaluate predictions against newly reported interview experiences.
+9. Make the dataset useful independently of the prediction system.
+10. Keep the project open and community-contributed.
+
+
+============================================================
+2. IMPORTANT PRODUCT PRINCIPLE
+============================================================
+
+Do NOT claim:
+"These are the questions your interviewer will ask."
+
+Prefer:
+"These are questions ranked as relevant based on the job description and the evidence contained in this dataset."
+
+The system should expose:
+- source/provenance
+- confidence
+- observed frequency
+- role
+- skill
+- concept
+- difficulty
+- question relationships
+
+The system should distinguish observed interview data from generated questions.
+
+
+============================================================
+3. REPOSITORY STRUCTURE
+============================================================
+
+interviewgraph/
+|
+|-- README.md
+|-- CONTRIBUTING.md
+|-- LICENSE
+|-- CODE_OF_CONDUCT.md
+|
+|-- data/
+|   |-- questions/
+|   |   |-- questions.yaml
+|   |
+|   |-- entities/
+|   |   |-- skills.yaml
+|   |   |-- concepts.yaml
+|   |   |-- roles.yaml
+|   |   |-- companies.yaml
+|   |   |-- projects.yaml
+|   |
+|   |-- interviews/
+|   |   |-- interviews.yaml
+|   |
+|   |-- relationships/
+|       |-- edges.yaml
+|
+|-- docs/
+|   |-- ontology.md
+|   |-- data-model.md
+|   |-- prediction.md
+|   |-- evaluation.md
+|   |-- contribution-guide.md
+|
+|-- questions/
+|   |-- python.md
+|   |-- statistics.md
+|   |-- machine-learning.md
+|   |-- deep-learning.md
+|   |-- computer-vision.md
+|   |-- rag.md
+|   |-- llm.md
+|   |-- mlops.md
+|   |-- system-design.md
+|   |-- databases.md
+|   |-- time-series.md
+|   |-- behavioral.md
+|   |-- project-specific.md
+|
+|-- graph/
+|   |-- schema/
+|   |-- import/
+|   |-- export/
+|   |-- queries/
+|
+|-- predictor/
+|   |-- jd_parser/
+|   |-- retrieval/
+|   |-- ranking/
+|   |-- generation/
+|   |-- evaluation/
+|
+|-- api/
+|
+|-- frontend/
+|
+|-- tests/
+|
+|-- scripts/
+|
+`-- examples/
+    |-- jds/
+    |-- predictions/
+    `-- graph/
+
+
+============================================================
+4. CANONICAL DATA MODEL
+============================================================
+
+The canonical source should be structured YAML or JSON.
+
+QUESTION
+--------
+id
+question
+normalized_question
+question_type
+difficulty
+skills
+concepts
+prerequisites
+followups
+related_questions
+role_ids
+company_ids
+project_ids
+source_ids
+tags
+status
+created_at
+updated_at
+
+SOURCE
+------
+id
+type
+company
+role
+round
+date
+url_or_reference
+confidence
+notes
+
+Possible source types:
+- actual_interview
+- interview_report
+- interview_preparation
+- project_followup
+- community_submission
+- generated
+
+SKILL
+-----
+id
+name
+parent_skill
+aliases
+description
+
+CONCEPT
+-------
+id
+name
+parent_concept
+aliases
+prerequisites
+description
+
+ROLE
+----
+id
+name
+level
+domain
+
+COMPANY
+-------
+id
+name
+industry
+country
+optional_public_reference
+
+PROJECT
+-------
+id
+name
+domain
+technologies
+description
+
+INTERVIEW
+---------
+id
+company_id
+role_id
+round
+date
+questions
+source
+confidence
+
+
+============================================================
+5. QUESTION RELATIONSHIP TYPES
+============================================================
+
+Use explicit edge types.
+
+QUESTION -> tests -> CONCEPT
+QUESTION -> requires -> SKILL
+QUESTION -> prerequisite_for -> QUESTION
+QUESTION -> followup_to -> QUESTION
+QUESTION -> variant_of -> QUESTION
+QUESTION -> related_to -> QUESTION
+QUESTION -> commonly_asked_with -> QUESTION
+QUESTION -> asked_for_role -> ROLE
+QUESTION -> asked_by -> COMPANY
+QUESTION -> related_to_project -> PROJECT
+CONCEPT -> prerequisite_of -> CONCEPT
+SKILL -> contains -> CONCEPT
+ROLE -> requires -> SKILL
+ROLE -> commonly_tests -> CONCEPT
+PROJECT -> uses -> SKILL
+PROJECT -> uses -> CONCEPT
+
+
+============================================================
+6. ONTOLOGY EXAMPLE
+============================================================
+
+ROLE
+  ML Engineer
+      |
+      +-- requires --> Python
+      +-- requires --> PyTorch
+      +-- requires --> ML
+      +-- requires --> MLOps
+      +-- requires --> RAG
+
+RAG
+  |
+  +-- Embeddings
+  +-- Chunking
+  +-- Vector Search
+  +-- Hybrid Retrieval
+  +-- Reranking
+  +-- MMR
+  +-- Evaluation
+  +-- Hallucination
+
+Reranking
+  |
+  +-- Cross Encoder
+  +-- Precision@K
+  +-- Recall@K
+
+Question
+  "How does reranking improve precision?"
+  |
+  +-- tests --> Reranking
+  +-- tests --> Precision@K
+  +-- related_to --> Hybrid Retrieval
+  +-- followup_to --> Retrieval Question
+
+
+============================================================
+7. JD PROCESSING PIPELINE
+============================================================
+
+INPUT:
+Job Description
+
+STEP 1:
+Parse JD.
+
+STEP 2:
+Extract:
+- role
+- seniority
+- industry
+- required skills
+- preferred skills
+- technologies
+- responsibilities
+- domain concepts
+- architecture/system requirements
+
+STEP 3:
+Normalize extracted skills against the ontology.
+
+Example:
+"Vector DB" -> vector-database
+"Postgres vector search" -> pgvector
+"LLM applications" -> llm
+"distributed training" -> distributed-training
+
+STEP 4:
+Expand graph neighbors.
+
+Example:
+RAG
+ -> embeddings
+ -> vector DB
+ -> HNSW
+ -> hybrid retrieval
+ -> BM25
+ -> reranking
+ -> evaluation
+
+STEP 5:
+Retrieve candidate questions.
+
+STEP 6:
+Rank candidate questions.
+
+STEP 7:
+Generate follow-up questions from existing graph relationships.
+
+STEP 8:
+Return grouped preparation output.
+
+
+============================================================
+8. QUESTION RANKING
+============================================================
+
+Initial ranking can be deterministic.
+
+Example conceptual score:
+
+score =
+    JD_skill_match
+  + concept_match
+  + role_match
+  + seniority_match
+  + observed_frequency
+  + company_match
+  + graph_centrality
+  + project_similarity
+  + semantic_similarity
+
+Do not immediately train a complex ML model.
+
+Start with:
+1. exact skill matching
+2. ontology expansion
+3. embedding similarity
+4. graph relationships
+5. observed frequency
+
+Then learn ranking from real evaluation data.
+
+
+============================================================
+9. PREDICTION OUTPUT
+============================================================
+
+Example:
+
+JD:
+Machine Learning Engineer
+Skills:
+Python, PyTorch, RAG, Kubernetes, AWS
+
+Output:
+
+HIGH RELEVANCE
+- Explain RAG.
+- How does HNSW work?
+- How do you evaluate RAG?
+- How does DDP synchronize gradients?
+- How do you deploy an ML model?
+- How would you scale GPU inference?
+- How would you deploy ML workloads on Kubernetes?
+
+FOLLOW-UP QUESTIONS
+- Why use RAG instead of fine-tuning?
+- How does reranking improve precision?
+- How do you prevent cross-tenant retrieval?
+- What happens if a model server crashes?
+- How do you handle GPU OOM?
+- Kubernetes Deployment vs StatefulSet?
+
+SYSTEM DESIGN
+- Design a production RAG system.
+- Design a scalable ML inference platform.
+
+
+============================================================
+10. KNOWLEDGE GRAPH IMPLEMENTATION
+============================================================
+
+Start simple.
+
+Phase 1:
+YAML/JSON graph.
+
+Phase 2:
+Build graph edges programmatically.
+
+Phase 3:
+Use a graph database if useful.
+
+Possible graph technologies:
+- Neo4j
+- Memgraph
+- PostgreSQL recursive relationships
+- NetworkX for local experimentation
+
+Do not introduce a graph database just because the project is called a knowledge graph.
+
+The graph abstraction is more important than the database.
+
+
+============================================================
+11. RETRIEVAL ARCHITECTURE
+============================================================
+
+Recommended initial architecture:
+
+JD
+ |
+ v
+JD Parser
+ |
+ v
+Skill/Concept Extraction
+ |
+ v
+Ontology Normalization
+ |
+ v
+Graph Expansion
+ |
+ v
+Candidate Question Retrieval
+ |
+ +--> lexical retrieval
+ |
+ +--> semantic retrieval
+ |
+ +--> graph retrieval
+ |
+ v
+Candidate Merge
+ |
+ v
+Ranking
+ |
+ v
+Follow-up Expansion
+ |
+ v
+Final Questions
+
+
+============================================================
+12. EMBEDDINGS
+============================================================
+
+Embed:
+- question
+- concept description
+- skill description
+- JD sections
+- project description
+
+Do NOT rely exclusively on embeddings.
+
+Use hybrid retrieval:
+- lexical matching
+- semantic similarity
+- ontology matching
+- graph traversal
+- observed frequency
+
+
+============================================================
+13. EVALUATION
+============================================================
+
+This is one of the most important parts.
+
+For every new real interview:
+
+1. Store the JD if legally/publicly shareable.
+2. Run the predictor before the interview if possible.
+3. Record predicted questions.
+4. Record actual questions afterward.
+5. Compare prediction vs reality.
+
+Metrics can include:
+
+Question Recall@K
+Precision@K
+MRR
+NDCG
+Skill coverage
+Concept coverage
+Follow-up relevance
+
+Also measure:
+- hallucinated/unsupported question rate
+- percentage of predictions backed by observed data
+- novelty rate
+- user usefulness rating
+
+
+============================================================
+14. IMPORTANT DATA PROVENANCE
+============================================================
+
+Every question should ideally answer:
+
+WHERE DID THIS QUESTION COME FROM?
+
+Example:
+
+source:
+  type: actual_interview
+  company: Example Company
+  role: ML Engineer
+  round: Technical
+  date: 2026-09
+  confidence: high
+
+Another:
+
+source:
+  type: interview_preparation
+  confidence: medium
+
+Generated questions should never be mixed with observed questions without a source label.
+
+
+============================================================
+15. COMMUNITY CONTRIBUTION MODEL
+============================================================
+
+Allow users to submit:
+
+- company
+- role
+- experience level
+- interview round
+- JD
+- questions asked
+- approximate date
+- optional answers/notes
+
+A submission should go through:
+1. validation
+2. duplicate detection
+3. normalization
+4. ontology mapping
+5. review
+6. merge
+
+Do not require contributors to reveal private/confidential interview information.
+
+
+============================================================
+16. PRIVACY / LEGAL / ETHICAL DESIGN
+============================================================
+
+Do not collect:
+- confidential interview material
+- proprietary company information
+- personal interviewer information
+- candidate personal information
+- NDA-protected content
+
+Prefer:
+- user-submitted recollections
+- public job descriptions
+- anonymized company information where necessary
+- publicly available interview experiences
+
+Clearly label user-submitted information as anecdotal evidence.
+
+
+============================================================
+17. MVP
+============================================================
+
+MVP should NOT include:
+- complex frontend
+- autonomous agents
+- expensive LLM pipelines
+- complicated graph database
+- model training
+
+MVP should include:
+
+1. questions.yaml
+2. ontology
+3. relationship schema
+4. JD parser
+5. skill normalization
+6. question retrieval
+7. basic ranking
+8. CLI
+
+Example:
+
+python predict.py --jd examples/jds/ml_engineer.txt
+
+Output:
+Top 30 relevant interview questions.
+
+
+============================================================
+18. V2
+============================================================
+
+Add:
+
+- embeddings
+- hybrid retrieval
+- graph traversal
+- follow-up generation
+- question deduplication
+- difficulty estimation
+- role/seniority matching
+- frequency statistics
+- evaluation framework
+
+
+============================================================
+19. V3
+============================================================
+
+Add:
+
+- web UI
+- JD upload/paste
+- interactive knowledge graph
+- personalized preparation plan
+- company/role exploration
+- contributor portal
+- prediction history
+- real interview feedback
+
+
+============================================================
+20. FUTURE RESEARCH DIRECTION
+============================================================
+
+Potential long-term system:
+
+JD
+ |
+ v
+LLM/NER Skill Extraction
+ |
+ v
+Ontology Linking
+ |
+ v
+Knowledge Graph
+ |
+ +----------------------+
+ |                      |
+ v                      v
+Historical Questions   Concept Graph
+ |                      |
+ +----------+-----------+
+            |
+            v
+       Candidate Pool
+            |
+            v
+      Learning-to-Rank
+            |
+            v
+     Question Prediction
+            |
+            v
+    Follow-up Generation
+            |
+            v
+      Interview Result
+            |
+            v
+       New Evidence
+            |
+            +-------> Dataset
+                       |
+                       +-------> Graph
+                       |
+                       +-------> Ranking Model
+
+
+============================================================
+21. CODEX IMPLEMENTATION ORDER
+============================================================
+
+PHASE 0 — Repository initialization
+------------------------------------
+1. Create repository structure.
+2. Add README.
+3. Add license.
+4. Add contribution guidelines.
+5. Add data schema documentation.
+
+PHASE 1 — Dataset
+-----------------
+1. Convert master question list into structured records.
+2. Generate stable question IDs.
+3. Deduplicate obvious duplicates.
+4. Preserve variants as separate records where meaningful.
+5. Add categories/tags.
+6. Add source/provenance fields where known.
+
+PHASE 2 — Ontology
+------------------
+1. Define role schema.
+2. Define skill schema.
+3. Define concept schema.
+4. Define relationship types.
+5. Create initial ontology for:
+   Python
+   Statistics
+   ML
+   Deep Learning
+   CV
+   RAG
+   LLM
+   MLOps
+   System Design
+   SQL
+   Cloud
+   Agents
+   FDE
+   Time Series
+
+PHASE 3 — Graph
+---------------
+1. Generate edges from structured records.
+2. Validate orphan nodes.
+3. Detect duplicate concepts.
+4. Export graph representation.
+5. Add graph query utilities.
+
+PHASE 4 — JD parser
+-------------------
+1. Accept TXT/Markdown JD.
+2. Extract role.
+3. Extract skills.
+4. Normalize skills.
+5. Map skills to concepts.
+6. Produce structured JD JSON.
+
+PHASE 5 — Question retrieval
+----------------------------
+1. Exact skill retrieval.
+2. Concept retrieval.
+3. Graph-neighbor expansion.
+4. Semantic retrieval.
+5. Candidate merging.
+6. Deduplication.
+
+PHASE 6 — Ranking
+-----------------
+Implement a transparent baseline scorer.
+
+Do NOT start with a black-box model.
+
+Make ranking explainable:
+
+Question:
+"How does reranking improve precision?"
+
+Matched because:
+- JD contains RAG
+- JD contains retrieval
+- Reranking is a child concept of retrieval
+- Question has high concept overlap
+- Question is observed in interview data
+
+PHASE 7 — Evaluation
+--------------------
+Create benchmark JDs.
+
+For each benchmark:
+- expected skills
+- expected concepts
+- known questions
+- retrieved questions
+- ranking results
+
+Add Recall@K, Precision@K, MRR and NDCG.
+
+PHASE 8 — UI/API
+----------------
+Only after the data and retrieval system are stable.
+
+Build:
+POST /predict
+GET /questions
+GET /skills
+GET /concepts
+GET /graph
+GET /roles
+
+
+============================================================
+22. DESIGN PRINCIPLES FOR CODEX
+============================================================
+
+1. Data first.
+2. Schema before application code.
+3. Keep observed and generated knowledge separate.
+4. Every question should have provenance where possible.
+5. Keep ranking explainable.
+6. Avoid premature graph-database complexity.
+7. Avoid premature LLM dependency.
+8. Make everything reproducible.
+9. Keep the dataset useful without the predictor.
+10. Make contribution easy.
+11. Treat every new interview as potential evaluation data.
+12. Never claim certainty about what an interviewer will ask.
+
+
+============================================================
+23. INITIAL SUCCESS CRITERIA
+============================================================
+
+The first milestone is successful if:
+
+- Repository contains a clean structured question dataset.
+- Questions have stable IDs.
+- Questions can be linked to skills and concepts.
+- A JD can be converted into normalized skills.
+- Relevant questions can be retrieved.
+- Ranking is explainable.
+- A graph can be visualized/exported.
+- New interview reports can be added without changing the architecture.
+- The project can eventually learn from prediction-vs-actual outcomes.
+
+
+============================================================
+24. THE CORE LOOP
+============================================================
+
+                    ┌─────────────────┐
+                    │ Job Description │
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │ Skill Extraction│
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │ Knowledge Graph │
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │Question Retrieval│
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │Question Ranking │
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │ Predicted Prep  │
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │ Real Interview  │
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │ Actual Questions│
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │ New Dataset Data│
+                    └────────┬────────┘
+                             │
+                             └──────────────> Knowledge Graph
+
+
+============================================================
+25. FINAL PRODUCT VISION
+============================================================
+
+The project starts as:
+
+"An open interview question bank."
+
+Then becomes:
+
+"An interview knowledge graph."
+
+Then:
+
+"A JD-aware interview preparation engine."
+
+And eventually:
+
+"A continuously improving system that learns which concepts and question patterns are associated with different roles, seniority levels, technologies, domains, and interview rounds."
+
+The public dataset remains the foundation of the entire system.
